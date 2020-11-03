@@ -10,20 +10,20 @@ function NavbarComp() {
 
         <>
 
-        <Navbar className="navbar stickyNav"  fixed="top" variant="dark" expand="lg" bg="black">
+        <Navbar className="navbar"  fixed="top sticky-top" variant="dark" expand="lg" bg="black">
         <Navbar.Brand href="/">JONATHAN<span className="greyFont nav-item"> SCHIMPF</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 
             <Nav className="d-lg-flex ml-auto">
             
-                <Nav.Link className="nav-item active" href="">ABOUT
+                <Nav.Link className="nav-item active ml-auto" href="">ABOUT
                 </Nav.Link>
-                <Nav.Link className="nav-item" href="">PORTFOLIO
+                <Nav.Link className="nav-item ml-auto" href="">PORTFOLIO
                 </Nav.Link>
-                <Nav.Link className="nav-item" href="">SKILLS
+                <Nav.Link className="nav-item ml-auto" href="">SKILLS
                 </Nav.Link>
-                <Nav.Link className="nav-item" href="">CONTACT
+                <Nav.Link className="nav-item ml-auto" href="">CONTACT
                 </Nav.Link>
 
             </Nav>

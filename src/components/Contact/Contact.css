@@ -1,0 +1,26 @@
+.button,
+.button:hover,
+.button:active,
+.button:visited,
+.button:focus {
+    text-decoration: none !important;
+}
+
+.fa:hover {
+    color: rgb(167, 167, 167) !important;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+    text-decoration: none !important;
+}
+
+a {
+    color: black;
+}
+a:hover {
+    color: rgb(167, 167, 167);
+}
