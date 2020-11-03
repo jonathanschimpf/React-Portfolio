@@ -11,13 +11,13 @@ function NavbarComp() {
         <>
 
         <Navbar className="navbar stickyNav"  fixed="top" variant="dark" expand="lg" bg="black">
-        <Navbar.Brand href="">JONATHAN SCHIMPF</Navbar.Brand>
+        <Navbar.Brand href="/">JONATHAN<span className="greyFont nav-item"> SCHIMPF</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 
-        <Nav className="d-lg-flex ml-auto" id="navbarColor01">
+            <Nav className="d-lg-flex ml-auto">
             
-                <Nav.Link className="nav-item active" href="">ABOUT <span className="sr-only">(ABOUT)</span>
+                <Nav.Link className="nav-item active" href="">ABOUT
                 </Nav.Link>
                 <Nav.Link className="nav-item" href="">PORTFOLIO
                 </Nav.Link>
@@ -27,6 +27,7 @@ function NavbarComp() {
                 </Nav.Link>
 
             </Nav>
+            
         </Navbar.Collapse>
     </Navbar>
 
