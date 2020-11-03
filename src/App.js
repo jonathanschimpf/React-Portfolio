@@ -1,13 +1,13 @@
 import React from "react";
-
+import NavbarComp from "./components/Navbar/Navbar";
 
 
 function App() {
   return (
 
     <>
-
-    <h1>TEST!</h1>
+    
+    <NavbarComp />
 
     </>
 

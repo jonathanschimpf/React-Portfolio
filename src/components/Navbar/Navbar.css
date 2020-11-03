@@ -1,0 +1,16 @@
+.navbar, nav {
+    padding-top: 4px;
+    padding-bottom: 6px; 
+    background: black !important;
+    background-color: black !important;
+}
+
+.bg-primary {
+
+    background-color: black !important;
+}
+
+.stickyNav {
+    position: sticky !important;
+    top: 0 !important;
+  }
