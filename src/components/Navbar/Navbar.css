@@ -1,14 +1,26 @@
-.navbar, nav {
-    padding-top: 4px;
-    padding-bottom: 6px; 
+.Navbar, .navbar, nav {
+    /* padding: .6rem 1rem; */
+    padding-top: 6px !important;
+    padding-bottom: 6.2px !important; 
     background: black !important;
     background-color: black !important;
 }
 
-.bg-primary {
+/* .navbar {
 
-    background-color: black !important;
-}
+    max-height: 52px;
+
+} */
+/* .responsive-navbar-nav{
+    padding-top: 6px !important;
+    padding-bottom: 6px !important; 
+
+} */
+/* .html, .fa-events-icons-ready {
+    padding-top: -16px !important;
+    padding-bottom: -16px !important; 
+} */
+
 
 .stickyNav {
     position: sticky !important;
