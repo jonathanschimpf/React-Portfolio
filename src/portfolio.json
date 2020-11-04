@@ -1,0 +1,41 @@
+[
+
+    {
+        "title": "RECIPE • ROULETTE",
+        "projectlink": "https://albie140.github.io/Recipe-Roulette/" ,
+        "repolink": "https://github.com/jonathanschimpf/Recipe-Roulette" ,
+        "image": "./images/RecipeRoulette_Portfolio_Thumbnail_1200px.jpg"
+    },
+    {
+        "title": "TRIP WISHLIST",
+        "projectlink": "https://trip-wishlist.herokuapp.com/" ,
+        "repolink": "https://github.com/jonathanschimpf/Trip-Wishlist" ,
+        "image": "./images/Trip_Wishlist_Thumbnail_1200px.jpg"
+    },
+    {
+        "title": "NOTE TAKER",
+        "projectlink": "https://note-taker-express-js.herokuapp.com/" ,
+        "repolink": "https://github.com/jonathanschimpf/Express-Note-Taker" ,
+        "image": "./images/Note.Taker_Thumbnail_1200px.jpg"
+    },
+    {
+        "title": "TACO • TIME",
+        "projectlink": "https://taco-time-handlebars.herokuapp.com/" ,
+        "repolink": "https://github.com/jonathanschimpf/Taco-Time" ,
+        "image": "./images/Taco_Time_Thumbnail_1200px.jpg"
+    },
+    {
+        "title": "5 DAY WEATHER DASHBOARD",
+        "projectlink": "https://jonathanschimpf.github.io/A-5-Day-Weather-Dashboard/" ,
+        "repolink": "https://github.com/jonathanschimpf/A-5-Day-Weather-Dashboard" ,
+        "image": "./images/5_Day_Weather_Dashboard_Thumbnail_1200px.jpg"
+    },
+    {
+        "title": "Online/Offline Budget Tool",
+        "projectlink": "https://onlineoffline-budget-app.herokuapp.com/" ,
+        "repolink": "https://github.com/jonathanschimpf/Online.Offline-Progressive-Budget-Application" ,
+        "image": "./images/Online.Offline_Budget_Tool_Thumbnail_1200px.jpg"
+    }
+
+
+]
