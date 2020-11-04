@@ -69,12 +69,11 @@ function PortfolioComp() {
       </a><p />
     </div>
     <div className="col-lg-4 my-4">
-      <a href="https://jonathanschimpf.github.io/Daily-9-to-5-Planner/" target="_blank">
-        <img src="./images/Daily_Planner_Portfolio_Thumbnail_1200px.jpg" className="img-fluid" alt="DAILY PLANNER : (9-5)" />
+      <a href="https://onlineoffline-budget-app.herokuapp.com/" target="_blank">
+        <img src="./images/Online.Offline_Budget_Tool_Thumbnail_1200px.jpg" className="img-fluid" alt="DAILY PLANNER : (9-5)" />
       </a>
-      <p style={{paddingTop: '10px', textAlign: 'center', fontWeight: 'bold', color: 'black'}}> <a href="https://jonathanschimpf.github.io/Daily-9-to-5-Planner/" target="_blank">DAILY PLANNER :
-          (9-5)</a><a href="https://github.com/jonathanschimpf/Daily-9-to-5-Planner" target="_blank">
-        </a></p><p style={{paddingTop: '1px', textAlign: 'center', fontWeight: 'bold'}}><a href="https://github.com/jonathanschimpf/Daily-9-to-5-Planner" target="_blank"><i className="fa fa-github-square" aria-hidden="true" /> +REPO</a></p><a href="https://github.com/jonathanschimpf/Daily-9-to-5-Planner" target="_blank">
+      <p style={{paddingTop: '10px', textAlign: 'center', fontWeight: 'bold', color: 'black'}}> <a href="https://onlineoffline-budget-app.herokuapp.com/" target="_blank">Online/Offline Budget Tool</a><a href="https://github.com/jonathanschimpf/Online.Offline-Progressive-Budget-Application" target="_blank">
+        </a></p><p style={{paddingTop: '1px', textAlign: 'center', fontWeight: 'bold'}}><a href="https://github.com/jonathanschimpf/Online.Offline-Progressive-Budget-Application" target="_blank"><i className="fa fa-github-square" aria-hidden="true" /> +REPO</a></p><a href="https://github.com/jonathanschimpf/Online.Offline-Progressive-Budget-Application" target="_blank">
       </a><p />
     </div>
   </section>

@@ -1,6 +1,5 @@
 import React from "react";
 import "./HeroImage.css";
-import { Link } from "react-scroll";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -10,7 +9,7 @@ function HeroImageComp() {
 
         <>
 
-            <div className="heroIMAGE img-fluid">
+            <div id="hero" className="heroIMAGE img-fluid">
                 <img className="heroHEIGHT" />
             </div>
 

@@ -14,7 +14,26 @@ function NavbarComp() {
         <>
 
             <Navbar className="navbar" fixed="top sticky-top" variant="dark" expand="lg" bg="black">
-                <Navbar.Brand href="/">JONATHAN<span className="greyFont nav-item"> SCHIMPF</span></Navbar.Brand>
+                    <Nav>
+
+                        <li>
+                            <Link
+                                href=""
+                                to="hero"
+                                activeClass="active"
+                                className="navbar-brand"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={800}
+                                 ><span className="whiteFont">JONATHAN</span> 
+                                 <span className="greyFont"
+                                 > SCHIMPF</span>
+
+                            </Link>
+                        </li>
+
+                    </Nav>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
 

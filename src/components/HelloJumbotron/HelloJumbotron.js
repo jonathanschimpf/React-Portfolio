@@ -10,7 +10,7 @@ function HelloJumbotronComp() {
 
         <>
 
-<Jumbotron id="jumboBGRND">
+<Jumbotron id="jumboBGRND" fluid>
   <Container id="about">
     <br />
     <br />
