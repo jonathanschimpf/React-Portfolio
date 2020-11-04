@@ -25,8 +25,3 @@ export default HeroImageComp;
 
 
 
-
-
-
-//prior to conversion
-

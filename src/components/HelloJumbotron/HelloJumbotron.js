@@ -13,7 +13,7 @@ function HelloJumbotronComp() {
 <Jumbotron id="jumboBGRND">
   <Container>
     <h1 className="display-4">Hello.</h1>
-    <a href="#bottom"><i href="#bottom" className="fa fa-angle-double-down fa-2x" aria-hidden="true" /></a>
+    <a href="#bottom"><i style={{ fontColor: "black" }} href="#bottom" className="fa fa-angle-double-down fa-2x" aria-hidden="true" /></a>
     <br />
     <br />
     <br />

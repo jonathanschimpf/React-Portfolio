@@ -37,7 +37,13 @@ function ContactComp() {
                     </Col>
                 </Row>
 
+                <br />
+                <br />
+                <br />
+                <i class="fas fa-long-arrow-alt-down fa-2x"></i>
+
             </Container>
+
 
         </>
 

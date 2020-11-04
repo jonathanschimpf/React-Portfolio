@@ -1,0 +1,28 @@
+
+        input {
+
+            outline: black;
+        }
+
+
+        .button,
+        .button:hover,
+        .button:active,
+        .button:visited,
+        .button:focus {
+            text-decoration: none;
+        }
+
+        .fa:hover {
+            color: rgb(167, 167, 167);
+        }
+
+        p,
+        a {
+            text-decoration: none !important;
+        }
+
+        p,
+        a:hover {
+            color: rgb(167, 167, 167);
+        }

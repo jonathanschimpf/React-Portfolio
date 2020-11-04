@@ -1,0 +1,60 @@
+.button,
+.button:hover,
+.button:active,
+.button:visited,
+.button:focus {
+    text-decoration: none !important;
+}
+
+
+/* 
+.centeredSkills {
+
+    text-align: center !important;
+    align-content: center !important;
+} */
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+    text-decoration: none !important;
+}
+
+h2 {
+
+    color: white;
+
+}
+
+.skillsIcon {
+
+    color: white;
+
+}
+
+.skillsIcon:hover {
+
+    color: rgb(189, 0, 0);
+    
+}
+
+.skillsContainerWidth {
+
+    max-width: 750px !important;
+    justify-content: center!important;
+}
+
+.skillsParalax {
+  
+    background-color: black;
+    font:white;
+
+}
+
+.skillsParalaxHeight {
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+} 
