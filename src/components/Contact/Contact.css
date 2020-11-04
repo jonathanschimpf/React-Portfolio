@@ -24,3 +24,19 @@ a {
 a:hover {
     color: rgb(167, 167, 167);
 }
+
+.centeredContainer {
+
+    text-align: center !important;
+    align-content: center !important;
+}
+
+@media screen and (max-width: 440px) {
+
+    .responsiveEmail{
+  
+      font-size: 16px !important;
+  
+    }
+  }
+  

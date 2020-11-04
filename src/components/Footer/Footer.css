@@ -24,3 +24,13 @@ a {
 a:hover {
     color: rgb(167, 167, 167);
 }
+
+@media screen and (max-width: 350px) {
+
+    .responsiveFooter{
+  
+      font-size: 20px !important;
+  
+    }
+  }
+  
