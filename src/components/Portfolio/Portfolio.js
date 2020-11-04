@@ -8,14 +8,22 @@ function PortfolioComp() {
     return (
 
         <>
-
+<br />
+<br />
+<br />
+<br />
 <section className="container-md align-center mb-3">
+<h1 className="portfolioFont" id="portfolio">PORTFOLIO.</h1>
+<div className="portfolioFont">
+    <a href="#bottom"><i style={{ fontColor: "black" }} href="#bottom" className="fa fa-angle-double-down fa-2x portfolioFont" aria-hidden="true" /></a>
+</div>
+
   {/* breathing room */}
   <br />
   <br />
   <br />
   {/* breathing room */}
-  <section className="row align" id="portfolio">
+  <section className="row align">
     <div className="col-lg-4 my-4">
       <a href="https://albie140.github.io/Recipe-Roulette/" target="_blank">
         <img src="./images/RecipeRoulette_Portfolio_Thumbnail_1200px.jpg" className="img-fluid" alt="RECIPE ROULETTE" />
@@ -72,7 +80,10 @@ function PortfolioComp() {
   </section>
 </section>
 
-
+<br />
+<br />
+<br />
+<br />
 
         </>
 

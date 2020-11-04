@@ -9,8 +9,6 @@ function SkillsComp() {
 
         <> 
         <div className="skillsBox">
-
-            <br />
             <br />
             <br />
             <br />

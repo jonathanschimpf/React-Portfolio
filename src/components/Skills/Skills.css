@@ -37,7 +37,7 @@ h2 {
 .skillsIcon:hover {
 
     color: rgb(189, 0, 0);
-    transition: all 0.35s ease-in-out !important;
+    transition: all 0.25s !important;
     
 }
 

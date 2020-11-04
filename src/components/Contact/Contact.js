@@ -47,7 +47,7 @@ function ContactComp() {
                 <br />
                 <br />
                 <h5>CONNECT</h5>
-                <i class="fas fa-long-arrow-alt-down fa-2x"></i>
+                <a><i class="fas fa-long-arrow-alt-down fa-2x"></i></a>
 
             </Container>
 

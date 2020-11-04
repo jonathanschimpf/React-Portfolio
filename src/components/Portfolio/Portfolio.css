@@ -26,3 +26,10 @@
         a:hover {
             color: rgb(167, 167, 167);
         }
+
+        .portfolioFont {
+
+            color: black;
+            text-align: right !important;
+            
+        }
