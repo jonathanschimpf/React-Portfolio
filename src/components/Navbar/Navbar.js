@@ -1,8 +1,11 @@
 import React from "react";
 import "./Navbar.css";
 import { Navbar, Nav } from "react-bootstrap";
-import { Link } from "react-scroll";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-scroll'
+
+
+
+
 
 function NavbarComp() {
 
@@ -10,26 +13,83 @@ function NavbarComp() {
 
         <>
 
-        <Navbar className="navbar"  fixed="top sticky-top" variant="dark" expand="lg" bg="black">
-        <Navbar.Brand href="/">JONATHAN<span className="greyFont nav-item"> SCHIMPF</span></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+            <Navbar className="navbar" fixed="top sticky-top" variant="dark" expand="lg" bg="black">
+                <Navbar.Brand href="/">JONATHAN<span className="greyFont nav-item"> SCHIMPF</span></Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
 
-            <Nav className="d-lg-flex ml-auto">
-            
-                <Nav.Link className="nav-item active ml-auto" href="">ABOUT
-                </Nav.Link>
-                <Nav.Link className="nav-item ml-auto" href="">PORTFOLIO
-                </Nav.Link>
-                <Nav.Link className="nav-item ml-auto" href="">SKILLS
-                </Nav.Link>
-                <Nav.Link className="nav-item ml-auto" href="">CONTACT
-                </Nav.Link>
+                    <Nav className="d-lg-flex ml-auto">
 
-            </Nav>
-            
-        </Navbar.Collapse>
-    </Navbar>
+                        <li className="nav-item ml-auto">
+                            <Link
+                                href=""
+                                to="about"
+                                activeClass="active"
+                                className="nav-link"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={800}
+                                 >
+                                ABOUT
+                            </Link>
+                        </li>
+
+                        <li className="nav-item ml-auto">
+                            <Link
+                                href=""
+                                to="portfolio"
+                                activeClass="active"
+                                className="nav-link"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={800}
+                                 >
+
+                                PORTFOLIO
+
+                                </Link>
+                        </li>
+
+                            <li className="nav-item ml-auto">
+                            <Link
+                                href=""
+                                to="skills"
+                                activeClass="active"
+                                className="nav-link"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={800}
+                                >
+
+                                SKILLS
+
+                            </Link>
+                         </li>
+
+                            <li className="nav-item ml-auto">
+                            <Link
+                                href=""
+                                to="contact"
+                                activeClass="active"
+                                className="nav-link"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={800}
+                                >
+
+                                CONTACT
+
+                            </Link>
+                        </li>
+
+                    </Nav>
+
+                </Navbar.Collapse>
+            </Navbar>
 
         </>
 
@@ -42,7 +102,7 @@ export default NavbarComp;
 
 
 
-{/* <>
+            {/* <>
 
 <nav className="navbar navbar-expand-lg navbar-dark stickyNav">
 <a className="navbar-brand" href="">JONATHAN SCHIMPF</a>

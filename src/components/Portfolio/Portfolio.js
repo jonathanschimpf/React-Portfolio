@@ -1,10 +1,9 @@
 import React from "react";
-import "./Projects.css";
+import "./Portfolio.css";
 // import { Col, Row } from "react-bootstrap";
-import { Link } from "react-scroll";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function ProjectsComp() {
+function PortfolioComp() {
 
     return (
 
@@ -16,7 +15,7 @@ function ProjectsComp() {
   <br />
   <br />
   {/* breathing room */}
-  <section className="row align">
+  <section className="row align" id="portfolio">
     <div className="col-lg-4 my-4">
       <a href="https://albie140.github.io/Recipe-Roulette/" target="_blank">
         <img src="./images/RecipeRoulette_Portfolio_Thumbnail_1200px.jpg" className="img-fluid" alt="RECIPE ROULETTE" />
@@ -81,7 +80,7 @@ function ProjectsComp() {
     );
 }
 
-export default ProjectsComp;
+export default PortfolioComp;
 
 
 

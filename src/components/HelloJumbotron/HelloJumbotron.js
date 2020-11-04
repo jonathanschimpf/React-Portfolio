@@ -2,7 +2,7 @@ import React from "react";
 import "./HelloJumbotron.css";
 import { Jumbotron, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function HelloJumbotronComp() {
 
@@ -11,7 +11,7 @@ function HelloJumbotronComp() {
         <>
 
 <Jumbotron id="jumboBGRND">
-  <Container>
+  <Container id="about">
     <h1 className="display-4">Hello.</h1>
     <a href="#bottom"><i style={{ fontColor: "black" }} href="#bottom" className="fa fa-angle-double-down fa-2x" aria-hidden="true" /></a>
     <br />

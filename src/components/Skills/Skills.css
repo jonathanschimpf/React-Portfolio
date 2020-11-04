@@ -37,7 +37,15 @@ h2 {
 .skillsIcon:hover {
 
     color: rgb(189, 0, 0);
+    transition: all 0.35s ease-in-out !important;
     
+}
+
+.skillsTransform:hover
+.skillsTransform:focus
+.skillsTransform:active {
+
+    transform: translateY(-4x);
 }
 
 .skillsContainerWidth {
@@ -46,15 +54,14 @@ h2 {
     justify-content: center!important;
 }
 
-.skillsParalax {
-  
-    background-color: black;
+
+.skillsBox {
+
+    min-height: 950px;
+    background: black;
     font:white;
-
-}
-
-.skillsParalaxHeight {
-    height: 800px;
+    height: 900px;
     position: relative;
     overflow: hidden;
 } 
+

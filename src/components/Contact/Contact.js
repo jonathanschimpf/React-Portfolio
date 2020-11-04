@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { Container, Col, Row } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
@@ -13,7 +13,10 @@ function ContactComp() {
 
             <br />
             <br />
-            <Container className="centeredContainer">
+            <br />
+            <br />
+            <br />
+            <Container className="centeredContainer" id="contact">
                 <Row>
                     <Col sm={12}>
                         <h1>LET'S WORK TOGETHER TO BUILD YOUR NEXT PROJECT.</h1>
@@ -40,10 +43,13 @@ function ContactComp() {
                 <br />
                 <br />
                 <br />
+                <br />
+                <br />
+                <br />
+                <h5>CONNECT</h5>
                 <i class="fas fa-long-arrow-alt-down fa-2x"></i>
 
             </Container>
-
 
         </>
 
