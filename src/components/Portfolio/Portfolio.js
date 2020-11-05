@@ -24,7 +24,7 @@ function PortfolioComp() {
           <a href="#bottom"><i style={{ fontColor: "black" }} href="#bottom" className="fa fa-angle-double-down fa-2x portfolioFont" aria-hidden="true" /></a>
         </div>
         </section>
-        
+
 
         {/* breathing room */}
         <br />
@@ -32,10 +32,10 @@ function PortfolioComp() {
         <br />
         {/* breathing room */}
         <Container>
-          <CardDeck>
+          <CardDeck lg={2}>
             {portfolio.map(item => (
 
-              <Card lg={2} style={{ border: 'none' }}>
+              <Card style={{ border: 'none' }}>
                 <a href={item.projectlink} target="_blank">
                   <Card.Img variant="top" src={item.image} target="_blank" fluid alt={item.title} />
                 </a>
