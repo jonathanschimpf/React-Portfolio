@@ -1,5 +1,6 @@
 import React from "react";
 import NavbarComp from "./components/Navbar/Navbar";
+import HeaderComp from "./components/Header/Header";
 import HeroImageComp from "./components/HeroImage/HeroImage";
 import HelloJumbotronComp from "./components/HelloJumbotron/HelloJumbotron";
 import PortfolioComp from "./components/Portfolio/Portfolio";
@@ -14,6 +15,7 @@ function App() {
     <>
     
     <NavbarComp />
+    <HeaderComp />
     <HeroImageComp />
     <HelloJumbotronComp />
     <br />

@@ -18,10 +18,18 @@ a:focus {
     text-decoration: none !important;
 }
 
+.blackoutLink {
+
+    color: black !important;
+
+}
+
 a {
     color: black;
 }
+
 a:hover {
+    
     color: rgb(167, 167, 167)!important;
 }
 
@@ -31,12 +39,60 @@ a:hover {
     align-content: center !important;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 465px) {
 
-    .responsiveEmail{
+    .responsiveEmail {
   
-      font-size: 16px !important;
+      font-size: 20px !important;
+  
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+
+    .responsiveEmail {
+  
+      font-size: 14px !important;
   
     }
   }
   
+
+  @media screen and (max-width: 340px) {
+
+    .responsiveEmail {
+  
+      font-size: 12px !important;
+  
+    }
+  }
+
+  @media screen and (max-width: 490px) {
+
+    .responsivePhone {
+  
+      font-size: 22px !important;
+  
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+
+    .responsivePhone {
+  
+      font-size: 20px !important;
+  
+    }
+  }
+  
+
+  @media screen and (max-width: 340px) {
+
+    .responsivePhone {
+  
+      font-size: 18px !important;
+  
+    }
+
+  }
+

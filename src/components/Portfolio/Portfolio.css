@@ -1,65 +1,70 @@
+input {
 
-        input {
-
-            outline: black;
-        }
-
-
-        .button,
-        .button:hover,
-        .button:active,
-        .button:visited,
-        .button:focus {
-
-            text-decoration: none;
-        }
-
-        .fa:hover {
-
-            color: rgb(167, 167, 167);
-        }
-
-        p,
-        a {
-
-            text-decoration: none !important;
-        }
-
-        p,
-        a:hover {
-
-            color: rgb(167, 167, 167);
-        }
-
-        .portfolioHover {
-
-            text-decoration: none !important;
-
-        }
-
-        .portfolioHover:hover {
-
-            color: rgb(167, 167, 167) !important;
-        }
-
-        .portfolioFont {
-
-            color: black;
-            text-align: right !important;
-            
-        }
-
-        .card-deck{
-            margin-top: 10px;
-            margin-left: auto;
-            display: grid;
-            /* pixel count after minmax sets how much each column shares */
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            grid-gap: .5rem;
-        }
+    outline: black;
+}
 
 
+.button,
+.button:hover,
+.button:active,
+.button:visited,
+.button:focus {
 
- 
-          
+    text-decoration: none;
+}
+
+.fa:hover {
+
+    color: rgb(167, 167, 167);
+}
+
+p,
+a {
+
+    text-decoration: none !important;
     
+}
+
+p,
+a:hover {
+
+    color: rgb(167, 167, 167);
+}
+
+.portfolioHover {
+
+    text-decoration: none !important;
+    color: black !important;
+
+}
+
+.portfolioHover:hover {
+
+    color: rgb(167, 167, 167) !important;
+}
+
+.portfolioFont {
+
+    color: black;
+    text-align: right !important;
+    
+}
+
+.card-deck {
+    margin-top: 10px !important;
+    margin-left: auto !important;
+    display: grid !important;
+    /* pixel count after minmax sets how much each column shares */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+    grid-gap: .5rem !important;
+}
+
+
+@media screen and (max-width: 200px) {
+
+    .responsiveFooter{
+  
+      font-size: 10px !important;
+  
+    }
+  }

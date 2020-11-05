@@ -1,0 +1,28 @@
+/* .whiteHeaderFont {
+
+    color: white !important;
+} */
+
+.jumbotronHeader {
+
+    min-height: 800px !important;
+    background-size: 1400px;
+    background: white !important;
+    position: relative;
+    overflow: hidden;
+} 
+
+.centerHeader {text-align: center !important;
+align-content: center !important
+}
+
+.blacked {
+    color: black !important;
+    font-weight: bold;
+}
+
+.greyed {
+
+    color:rgb(104, 104, 104) !important;
+
+}

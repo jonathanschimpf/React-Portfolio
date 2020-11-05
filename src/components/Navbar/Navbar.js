@@ -19,7 +19,7 @@ function NavbarComp() {
                         <li>
                             <Link
                                 href=""
-                                to="hero"
+                                to="header"
                                 activeClass="active"
                                 className="navbar-brand"
                                 spy={true}

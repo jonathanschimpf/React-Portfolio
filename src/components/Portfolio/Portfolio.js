@@ -1,7 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 import { Container, CardDeck, Card } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 import portfolio from "../../portfolio.json"
 
@@ -36,7 +36,7 @@ function PortfolioComp() {
             {portfolio.map(item => (
 
               <Card style={{ border: 'none' }}>
-                <a href={item.projectlink} className="imgFX" target="_blank">
+                <a href={item.projectlink} target="_blank">
                   <Card.Img variant="top" src={item.image} target="_blank" fluid />
                 </a>
                 <Card.Body>
@@ -45,7 +45,7 @@ function PortfolioComp() {
                     <Card.Title className="portfolioHover" style={{ paddingTop: '10px', textAlign: 'center', fontWeight: 'bold', color: 'black' }}>{item.title}</Card.Title></a><a href={item.projectlink} target="_blank">
                   </a>
 
-                  <Card.Text className="portfolioHover" style={{ paddingTop: '1px', textAlign: 'center', fontWeight: 'bold' }}><a href={item.repolink}><i className="fa fa-github-square" aria-hidden="true" /> +REPO</a>
+                  <Card.Text className="portfolioHover" style={{ paddingTop: '1px', textAlign: 'center', fontWeight: 'bold'}}><a href={item.repolink} className="portfolioHover"><i className="fa fa-github-square" aria-hidden="true" /> +REPO</a>
                   </Card.Text>
 
                 </Card.Body>
@@ -74,7 +74,6 @@ export default PortfolioComp;
 <div className="portfolioFont">
     <a href="#bottom"><i style={{ fontColor: "black" }} href="#bottom" className="fa fa-angle-double-down fa-2x portfolioFont" aria-hidden="true" /></a>
 </div>
-
   {/* breathing room */}
 //   <br />
 //   <br />
@@ -139,17 +138,12 @@ export default PortfolioComp;
 // prior to conversion
 
 {/* <section class="container-md align-center mb-3">
-
  breathing room 
-
 <br>
 <br>
 <br>
-
 breathing room 
-
 <section class="row align">
-
     <section class="col-lg-4 my-4">
         <a href="https://albie140.github.io/Recipe-Roulette/" target="_blank">
             <img src="RecipeRoulette_Portfolio_Thumbnail_1200px.jpg" class="img-fluid" alt="RECIPE ROULETTE" />
@@ -160,7 +154,6 @@ breathing room
                         class="fa fa-github-square" aria-hidden="true"></i> +REPO</p>
             </a></p>
     </section>
-
     <section class="col-lg-4 my-4">
         <a href="https://trip-wishlist.herokuapp.com/" target="_blank">
             <img src="Trip_Wishlist_Thumbnail_1200px.jpg" class="img-fluid"
@@ -171,7 +164,6 @@ breathing room
                         class="fa fa-github-square" aria-hidden="true"></i> +REPO</p>
             </a></p>
     </section>
-
     <section class="col-lg-4 my-4">
         <a href="https://jonathanschimpf.github.io/A-5-Day-Weather-Dashboard/" target="_blank">
             <img src="5_Day_Weather_Dashboard_Thumbnail_1200px.jpg" class="img-fluid"
@@ -183,15 +175,9 @@ breathing room
                         class="fa fa-github-square" aria-hidden="true"></i> +REPO</p>
             </a></p>
     </section>
-
 </section>
-
-
 row number 2 
-
-
 <section class="row align">
-
     <section class="col-lg-4 my-4">
         <a href="https://note-taker-express-js.herokuapp.com/" target="_blank">
             <img src="Note.Taker_Thumbnail_1200px.jpg" class="img-fluid" alt="NOTE TAKER" />
@@ -202,7 +188,6 @@ row number 2
                         class="fa fa-github-square" aria-hidden="true"></i> +REPO</p>
             </a></p>
     </section>
-
     <section class="col-lg-4 my-4">
         <a href="https://taco-time-handlebars.herokuapp.com/" target="_blank">
             <img src="Taco_Time_Thumbnail_1200px.jpg" class="img-fluid"
@@ -213,7 +198,6 @@ row number 2
                         class="fa fa-github-square" aria-hidden="true"></i> +REPO</p>
             </a></p>
     </section>
-
     <section class="col-lg-4 my-4">
         <a href="https://jonathanschimpf.github.io/Daily-9-to-5-Planner/" target="_blank">
             <img src="Daily_Planner_Portfolio_Thumbnail_1200px.jpg" class="img-fluid"
@@ -225,8 +209,5 @@ row number 2
                         class="fa fa-github-square" aria-hidden="true"></i> +REPO</p>
             </a></p>
     </section>
-
 </section>
-
-
 </section> */}

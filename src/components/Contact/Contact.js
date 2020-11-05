@@ -16,6 +16,7 @@ function ContactComp() {
             <br />
             <br />
             <br />
+            <br />
             <Container className="centeredContainer" id="contact">
                 <Row>
                     <Col sm={12}>
@@ -29,20 +30,21 @@ function ContactComp() {
 
                 <Row>
                     <Col sm={12}>
-                        <h4><i className="fa fa-phone" />‏‏‎‏‏‎<a href="tel:570.440.0320">‎ 570.449.0320</a></h4>
+                        <h4><i className="fa fa-envelope responsiveEmail" />‏‏‎‏‏‎<a className="responsiveEmail blackoutLink" href="mailto:jonathan@jonathanschimpf.com">‎ jonathan@jonathanschimpf.com</a></h4>
                     </Col>
                 </Row>
-                <br></br>
-                <br></br>
+                <br />
+                <br />
+                <br />
+
                 <Row>
                     <Col sm={12}>
-                        <h4><i className="fa fa-envelope responsiveEmail" />‏‏‎‏‏‎<a className="responsiveEmail" href="mailto:jonathan@jonathanschimpf.com">‎ jonathan@jonathanschimpf.com</a></h4>
+                        <h4><i className="fa fa-phone responsivePhone " />‏‏‎‏‏‎<a href="tel:570.440.0320" className="responsivePhone blackoutLink">‎ 570.449.0320</a></h4>
                     </Col>
                 </Row>
 
-                <br />
-                <br />
-                <br />
+              
+                
                 <br />
                 <br />
                 <br />
