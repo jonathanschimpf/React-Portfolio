@@ -36,8 +36,8 @@ function PortfolioComp() {
             {portfolio.map(item => (
 
               <Card style={{ border: 'none' }}>
-                <a href={item.projectlink} target="_blank">
-                  <Card.Img variant="top" src={item.image} target="_blank" fluid alt={item.title} />
+                <a href={item.projectlink} className="imgFX" target="_blank">
+                  <Card.Img variant="top" src={item.image} target="_blank" fluid />
                 </a>
                 <Card.Body>
 

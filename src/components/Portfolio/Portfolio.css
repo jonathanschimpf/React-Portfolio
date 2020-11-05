@@ -53,7 +53,13 @@
             margin-top: 10px;
             margin-left: auto;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            /* pixel count after minmax sets how much each column shares */
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
             grid-gap: .5rem;
         }
 
+
+
+ 
+          
+    
