@@ -1,4 +1,11 @@
+
+#preload { 
+    background: url(https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/jon_berks_crop.jpg?raw=true) no-repeat -9999px -9999px;
+
+}
+
 .heroIMAGE {
+    
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -7,10 +14,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-}
+
+    }
 
 .heroHEIGHT {
+
     height: 800px;
     position: relative;
     overflow: hidden;
+
 }

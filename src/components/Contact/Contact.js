@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./Contact.css";
 import { Container, Col, Row } from "react-bootstrap";
@@ -20,7 +21,7 @@ function ContactComp() {
             <Container className="centeredContainer" id="contact">
                 <Row>
                     <Col sm={12}>
-                        <h1>LET'S WORK TOGETHER TO BUILD YOUR NEXT PROJECT.</h1>
+                        <h1 className="fontSizeAdjust wow animate__animated animate__fadeInDown animate_slower">LET'S WORK TOGETHER TO BUILD YOUR NEXT PROJECT.</h1>
                     </Col>
                 </Row>
 
@@ -48,7 +49,8 @@ function ContactComp() {
                 <br />
                 <br />
                 <br />
-                <h5>CONNECT</h5>
+                <h5><strong>CONNECT</strong></h5>
+                <br/>
                 <a><i class="fas fa-long-arrow-alt-down fa-2x wow animate__animated animate__bounce animate__delay-1s"></i></a>
 
             </Container>
@@ -60,6 +62,45 @@ function ContactComp() {
 }
 
 export default ContactComp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

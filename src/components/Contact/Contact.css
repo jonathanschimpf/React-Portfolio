@@ -18,6 +18,12 @@ a:focus {
     text-decoration: none !important;
 }
 
+.fontSizeAdjust {
+
+    font-size: 34px !important;
+
+}
+
 .blackoutLink {
 
     color: black !important;

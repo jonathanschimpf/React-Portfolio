@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./HelloJumbotron.css";
 import { Jumbotron, Container } from "react-bootstrap";
@@ -11,12 +12,14 @@ function HelloJumbotronComp() {
         <>
 
 <Jumbotron id="jumboBGRND" fluid>
-  <Container id="about">
+  <Container>
     <br />
     <br />
     <br />
     <br />
-    <br />
+    <br id="about" />
+    <br/>
+    <br/>
     <h1 className="helloSize">HELLO.</h1>
     <a><i style={{ color: "white" }} className="fa fa-angle-double-down fa-2x wow animate__animated animate__bounce animate__delay-1s" aria-hidden="true" /></a>
     <br />
@@ -38,6 +41,8 @@ function HelloJumbotronComp() {
     <br />
     <br />
     <br />
+    <br />
+
   </Container>
 </Jumbotron>
 
@@ -49,6 +54,42 @@ function HelloJumbotronComp() {
 }
 
 export default HelloJumbotronComp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

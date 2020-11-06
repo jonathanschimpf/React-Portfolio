@@ -10,7 +10,7 @@ function HeroImageComp() {
         <>
 
             <div id="hero" className="heroIMAGE img-fluid">
-                <img className="heroHEIGHT" />
+                <img id="preload" className="heroHEIGHT" />
             </div>
 
 
