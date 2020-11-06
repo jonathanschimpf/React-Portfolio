@@ -49,7 +49,7 @@ function ContactComp() {
                 <br />
                 <br />
                 <h5>CONNECT</h5>
-                <a><i class="fas fa-long-arrow-alt-down fa-2x"></i></a>
+                <a><i class="fas fa-long-arrow-alt-down fa-2x wow animate__animated animate__bounce animate__delay-1s"></i></a>
 
             </Container>
 

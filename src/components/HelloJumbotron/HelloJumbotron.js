@@ -18,7 +18,7 @@ function HelloJumbotronComp() {
     <br />
     <br />
     <h1 className="helloSize">HELLO.</h1>
-    <a><i style={{ color: "white" }} className="fa fa-angle-double-down fa-2x" aria-hidden="true" /></a>
+    <a><i style={{ color: "white" }} className="fa fa-angle-double-down fa-2x wow animate__animated animate__bounce animate__delay-1s" aria-hidden="true" /></a>
     <br />
     <br />
     <br />

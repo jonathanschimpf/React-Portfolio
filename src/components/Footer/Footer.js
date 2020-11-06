@@ -12,27 +12,27 @@ import { Container, Row } from "react-bootstrap";
         
     <Container className="d-flex justify-content-center">
         <Row sm={12}>    
-        <div className="m-3">
+        <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="https://jonathanschimpf.com" rel="noreferrer" target="_blank" className="fa fa-camera-retro fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div>
-        <div className="m-3">
+        <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="https://www.linkedin.com/in/jonathan-schimpf/" rel="noreferrer" target="_blank" className="fa fa-linkedin-square fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div>
-        <div className="m-3">
+        <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="https://github.com/jonathanschimpf" rel="noreferrer" target="_blank" className="fa fa-github-square fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div>
-        <div className="m-3">
+        <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="https://www.instagram.com/schimpfstagram/" rel="noreferrer" target="_blank" className="fa fa-instagram fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div>
-        <div className="m-3">
+        <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="mailto:jonathan@jonathanschimpf.com" className="fa fa-envelope-o fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div>
-        <div className="m-3">
+        <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="https://drive.google.com/file/d/1-Vxd1eHd33ReG8ikQ32xQntmowpZuGQa/view?usp=sharing" rel="noreferrer" target="_blank" className="fa fa-file-pdf-o fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div>

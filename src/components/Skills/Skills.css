@@ -57,10 +57,10 @@ h2 {
 
 .skillsBox {
 
-    min-height: 950px;
+    min-height: 1050px;
+    padding-top: 30px;
     background: black;
     font:white;
-    position: relative;
-    overflow: hidden;
+    
 } 
 

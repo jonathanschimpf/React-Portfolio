@@ -18,12 +18,12 @@ function PortfolioComp() {
       <br />
       <br />
       <br />
-      <section className="container-md align-center mb-3">
+      <Container>
         <h1 className="portfolioFont" id="portfolio">PORTFOLIO.</h1>
         <div className="portfolioFont">
-          <a href="#bottom"><i style={{ fontColor: "black" }} href="#bottom" className="fa fa-angle-double-down fa-2x portfolioFont" aria-hidden="true" /></a>
+          <a href="#bottom"><i style={{ fontColor: "black" }} className="fa fa-angle-double-down fa-2x portfolioFont wow animate__animated animate__bounce animate__delay-1s" aria-hidden="true" /></a>
         </div>
-        </section>
+        </Container>
 
 
         {/* breathing room */}
@@ -53,6 +53,10 @@ function PortfolioComp() {
             ))}
           </CardDeck>
         </Container>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
 
 
         </>
