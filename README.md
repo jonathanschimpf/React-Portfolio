@@ -28,7 +28,7 @@
 <p>&nbsp;<p>
 
 
-View my portfolio here =>‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏[`JONATHANSCHIMPF.DEV`](https://jonathanschimpf.github.io/Employee-Directory-ReactJS/)
+View my portfolio here =>‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏[`JONATHANSCHIMPF.DEV`](https://jonathanschimpf.dev)
 
 
 <p>&nbsp;<p>
