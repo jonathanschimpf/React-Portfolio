@@ -9,8 +9,8 @@ function HeroImageComp() {
 
         <>
 
-            <div id="hero" className="heroIMAGE img-fluid">
-                <img id="preload" className="heroHEIGHT" />
+            <div className="heroIMAGE">
+                <img className="heroHEIGHT" />
             </div>
 
 
