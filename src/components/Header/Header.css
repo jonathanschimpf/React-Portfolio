@@ -26,3 +26,16 @@ align-content: center !important
     color:rgb(104, 104, 104) !important;
 
 }
+
+
+@media screen and (max-width: 400px) {
+    h1.responsiveH1Font {
+      font-size: 12vw;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    h2.responsiveH2Font {
+      font-size: 12vw;
+    }
+  }
