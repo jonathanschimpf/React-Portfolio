@@ -15,10 +15,10 @@ function ContactComp() {
             <br />
             <br />
             <br />
+            <br id="contact" />
             <br />
             <br />
-            <br />
-            <Container className="centeredContainer" id="contact">
+            <Container className="centeredContainer">
                 <Row>
                     <Col sm={12}>
                         <h1 className="fontSizeAdjust wow animate__animated animate__fadeInDown animate_slower">LET'S WORK TOGETHER TO BUILD YOUR NEXT PROJECT.</h1>
@@ -48,7 +48,7 @@ function ContactComp() {
                 
                 <br />
                 <br />
-                <br />
+                <br/>
                 <h5><strong>CONNECT</strong></h5>
                 <br/>
                 <a><i class="fas fa-long-arrow-alt-down fa-2x wow animate__animated animate__bounce animate__delay-1s"></i></a>
