@@ -48,17 +48,18 @@ h2 {
     transform: translateY(-4x);
 }
 
-.skillsContainerWidth {
+/* .skillsContainerWidth {
 
-    max-width: 750px !important;
+    max-width: 750px !important; 
     justify-content: center!important;
-}
+} */
 
 
 .skillsBox {
 
-    min-height: 1050px;
-    padding-top: 30px;
+    min-height: 825px;
+    /* padding-top: 10px;
+    padding-bottom:10px; */
     background: black;
     font:white;
     

@@ -39,9 +39,9 @@ function HelloJumbotronComp() {
     <br />
     <br />
     <br />
+    {/* <br />
     <br />
-    <br />
-    <br />
+    <br /> */}
 
   </Container>
 </Jumbotron>
