@@ -59,6 +59,22 @@ a:hover {
     grid-gap: .5rem !important;
 }
 
+/* card deck width control support for the most narrow of devices (below 300px) */
+@media screen and (max-width: 310px) {
+
+    .card-deck {
+  
+        margin-top: 10px !important;
+        margin-left: auto !important;
+        display: grid !important;
+        /* pixel count after minmax sets how much each column shares */
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
+        grid-gap: .5rem !important;
+  
+    }
+  }
+
+
 .pointer-link { 
     cursor: pointer; 
   } 
