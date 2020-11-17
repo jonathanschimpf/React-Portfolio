@@ -12,7 +12,6 @@ function SkillsComp() {
 
             
             <br />
-            <br />
             <br id="skills"></br>
             <br />
             <br />

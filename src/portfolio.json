@@ -13,16 +13,16 @@
         "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/Trip_Wishlist_Thumbnail_1200px.jpg?raw=true"
     },
     {
+        "title": "TABLE TURNER",
+        "projectlink": "https://tableturner.herokuapp.com/" ,
+        "repolink": "https://github.com/jonathanschimpf/Table-Turner" ,
+        "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/Table.Turner_Thumbnail_1200px.jpg?raw=true"
+    },
+    {
         "title": "NOTE TAKER",
         "projectlink": "https://note-taker-express-js.herokuapp.com/" ,
         "repolink": "https://github.com/jonathanschimpf/Express-Note-Taker" ,
         "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/Note.Taker_Thumbnail_1200px.jpg?raw=true"
-    },
-    {
-        "title": "TACO • TIME",
-        "projectlink": "https://taco-time-handlebars.herokuapp.com/" ,
-        "repolink": "https://github.com/jonathanschimpf/Taco-Time" ,
-        "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/Taco_Time_Thumbnail_1200px.jpg?raw=true"
     },
     {
         "title": "5 DAY WEATHER DASHBOARD",
@@ -31,7 +31,7 @@
         "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/5_Day_Weather_Dashboard_Thumbnail_1200px.jpg?raw=true"
     },
     {
-        "title": "Online/Offline Budget Tool",
+        "title": "ONLINE/OFFLINE BUDGET TOOL",
         "projectlink": "https://onlineoffline-budget-app.herokuapp.com/" ,
         "repolink": "https://github.com/jonathanschimpf/Online.Offline-Progressive-Budget-Application" ,
         "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/Online.Offline_Budget_Tool_Thumbnail_1200px.jpg?raw=true"

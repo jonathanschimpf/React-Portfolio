@@ -15,8 +15,7 @@ function PortfolioComp() {
     <>
 
       
-      <br/>
-      <br/>
+
       <br/>
       <br/>
       <br/>
@@ -50,7 +49,7 @@ function PortfolioComp() {
                     <Card.Title className="portfolioHover pointer-link" style={{ paddingTop: '10px', textAlign: 'center', fontWeight: 'bold', color: 'black' }}>{item.title}</Card.Title></a><a href={item.projectlink} className="pointer-link" target="_blank">
                   </a>
 
-                  <Card.Text className="portfolioHover pointer-link" style={{ paddingTop: '1px', textAlign: 'center', fontWeight: 'bold'}}><a href={item.repolink} className="portfolioHover pointer-link"><i className="fa fa-github-square" aria-hidden="true" /> +REPO</a>
+                  <Card.Text className="portfolioHover pointer-link" style={{ paddingTop: '1px', textAlign: 'center', fontWeight: 'bold'}}><a href={item.repolink} className="portfolioHover pointer-link" target="_blank"><i className="fa fa-github-square" aria-hidden="true" /> +REPO</a>
                   </Card.Text>
 
                 </Card.Body>
@@ -62,8 +61,7 @@ function PortfolioComp() {
               <br/>
               <br/>
               <br/>
-              <br/>
-              <br/>
+           
        
 
 

@@ -12,8 +12,7 @@ function ContactComp() {
         <>
 
 
-            <br />
-            <br />
+            
             <br />
             <br id="contact" />
             <br />
