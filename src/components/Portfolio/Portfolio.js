@@ -16,13 +16,12 @@ function PortfolioComp() {
 
       
 
-      <br/>
-      <br/>
+     
       <br/>
       <br/>
       <br/>
       <Container>
-        <h1 className="portfolioFont" id="portfolio">PORTFOLIO.</h1>
+        <h1 className="wow animate__animated animate__fadeInDown animate_slower portfolioFont" id="portfolio">PORTFOLIO.</h1>
         <div className="portfolioFont">
           <a><i style={{ fontColor: "black" }} className="fa fa-angle-double-down fa-2x portfolioFont wow animate__animated animate__bounce animate__delay-1s" aria-hidden="true" /></a>
         </div>
@@ -60,7 +59,7 @@ function PortfolioComp() {
               <br/>
               <br/>
               <br/>
-              <br/>
+              
            
        
 

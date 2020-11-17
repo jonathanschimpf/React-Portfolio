@@ -10,7 +10,10 @@ function SkillsComp() {
         <> 
         <div className="skillsBox">
 
-            
+       
+            <br />
+            <br />
+            <br />
             <br />
             <br id="skills"></br>
             <br />
@@ -136,6 +139,16 @@ function SkillsComp() {
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            
+           
+            
             
             
        
