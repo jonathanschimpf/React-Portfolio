@@ -48,9 +48,9 @@ function ContactComp() {
                 <br />
                 <br />
                 <br/>
-                <h5><strong>CONNECT</strong></h5>
+                <h5 className="wow animate__animated animate__fadeIn animate__slower responsiveConnect"><strong>CONNECT</strong></h5>
                 <br/>
-                <a><i class="fas fa-long-arrow-alt-down fa-2x wow animate__animated animate__bounce animate__delay-1s"></i></a>
+                <a><i class="fas fa-long-arrow-alt-down fa-2x wow animate__animated animate__bounce animate__delay-1s responsiveArrow"></i></a>
 
             </Container>
 
