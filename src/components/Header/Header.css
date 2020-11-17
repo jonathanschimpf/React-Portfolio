@@ -6,10 +6,10 @@
 .jumbotronHeader {
 
     min-height: 800px !important;
-    background-size: 1400px;
+    /* background-size: 1400px;  */
     background: white !important;
-    position: relative;
-    overflow: hidden;
+    /* position: relative;
+    overflow: hidden; */
 } 
 
 .centerHeader {text-align: center !important;

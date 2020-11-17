@@ -16,7 +16,7 @@ function HeaderComp() {
                 <Container>
 
       
-                
+                <br />
                 <br /> 
                 <br />
                 <br />
@@ -29,6 +29,12 @@ function HeaderComp() {
                 <br />
                 <br />
                 <a><i className="fa fa-angle-double-down fa-2x wow animate__animated animate__backInUp" aria-hidden="true" /></a>
+                <br />
+                <br /> 
+                <br />
+                <br />
+                <br />
+                <br/>
                 <br />
                 
 
