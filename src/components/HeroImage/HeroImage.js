@@ -13,6 +13,7 @@ function HeroImageComp() {
                 <img className="heroHEIGHT" />
             </div>
 
+            {/* <div class="section-one"></div> */}
 
         </>
 
