@@ -162,10 +162,10 @@
     -moz-background-position: center;
     -o-background-position: center;
     background-position: center;
-    -webkit-background-attachment: fixed;
-    -moz-background-attachment: fixed;
-    -o-background-attachment: fixed;
-    background-attachment: fixed;
+    -webkit-background-attachment: scroll;
+    -moz-background-attachment: scroll;
+    -o-background-attachment: scroll;
+    background-attachment: scroll;
 
     }
 
