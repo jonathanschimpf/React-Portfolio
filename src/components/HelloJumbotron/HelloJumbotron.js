@@ -29,7 +29,7 @@ function HelloJumbotronComp() {
     <br />
     <br />
     <br />
-    <p className="lead">I am a Web Developer + Commercial Photographer residing in Philadelphia, Pa. Specialized focus in commercial content creation, with over 12 years of experience in a digital marketing + eCommerce setting. Merging an extensive creative background with a new journey in web development. Deeply passionate about creative front-end design and unique user experiences. Minimalistic approach to aesthetically pleasing mobile first responsive layouts. Perpetual student with a desire to continue to learn and evolve along with industry standards and trends. Aside from art + technology, I enjoy cycling, hiking, and trying out new recipes.</p>
+    <p className="lead">I am a Full Stack Web Developer + Commercial Photographer residing in Philadelphia, Pa. Specialized focus in commercial content creation, with over 12 years of experience in a digital marketing & eCommerce setting. Merging an extensive creative background with a new journey in web development. Deeply passionate about creative front-end design and unique user experiences. Minimalistic approach to aesthetically pleasing mobile first responsive layouts. Perpetual student with a desire to continue to learn and evolve along with industry standards and trends. MERN stack certified and excited for opportunities to grow. Aside from art + technology, I enjoy cycling, hiking, and trying out new recipes at home. This portfolio was built using React JS. It features some of my recent projects with links to each GitHub repository for in-depth descriptions + codebase.</p>
     <br />
     <br />
     <br />
