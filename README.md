@@ -23,7 +23,7 @@
 
 <p>&nbsp;<p>
 
-<strong>JONATHANSCHIMPF.DEV</strong> is my personal web development portfolio that i created with the[`React.js`](https://reactjs.org/) library. This this application was built using `component based development`, and dynamic rendering was utilized to generate similar items within the site. This site showcases my skills and language/workflow knowledge, some samples of projects that i have created, and a few short words on myself and what i am passionate about. It also provides multiple ways to connect with me via the usual cell/email channels, or via LinkedIn, GitHub, Instagram, etc. My resume can also be ontained within the footer area, as well as links ot my commercial/fine art photographic portfolios. It features styling and a design that is closely aligned with my personal aesthetic and takes a one page, scroll-into-view approach. I implemented subtle css animations on certain elements to draw attention throughout the visit. This mobile-first application was built using a combination of custom `CSS3` and [`React-Bootstrap`](https://react-bootstrap.github.io/) and can be viewed on all of your favorite devices.
+<strong>JONATHANSCHIMPF.DEV</strong> is my personal web development portfolio that i created with the [`React.js`](https://reactjs.org/) library. This this application was built using `component based development`, and dynamic rendering was utilized to generate similar items within the site. This site showcases my skills and language/workflow knowledge, some samples of projects that i have created, and a few short words on myself and what i am passionate about. It also provides multiple ways to connect with me via the usual cell + email channels, or via LinkedIn, GitHub, Instagram, etc. My resume can also be ontained within the footer area, as well as links ot my commercial/fine art photographic portfolios. It features styling and a design that is closely aligned with my personal aesthetic and takes a one page, scroll-into-view approach. I implemented subtle css animations on certain elements to draw attention throughout the visit. This mobile-first application was built using a combination of custom `CSS3` + [`React-Bootstrap`](https://react-bootstrap.github.io/) and can be viewed on all of your favorite devices.
 
 <p>&nbsp;<p>
 
@@ -71,17 +71,14 @@ View my portfolio here =>‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏[`JONATHAN
 
 
 
-Data is being stored in a `.JSON` file which has an array of objects that represent each project that i am featuring within my portfolio. The data for each project is being dynamically generated from a single pre-built card component, and fit into a deck for mobile-responsiveness (along-side some css customization). This is very convenient for future maintenance as i'll only need to add the description, link, and image data to the associated dataset, and it will generate new cards upon saving.
-
-
-(MORE TEXT SOON..)
+Data is being stored in a `.JSON` file which has an array of objects that represent each project that i am featuring within my portfolio. The data for each project is being dynamically generated from a single pre-built card component, and fit into a deck for mobile-responsiveness (along-side some css customization). This is very convenient for future maintenance as i'll only need to add the description, link, and image data to the associated dataset, and it will generate new project sections upon saving. I've chosen to keep things cleanly designed and added the usage of a pop up modal for lengthier project description info. The data is also being mapped into these modals and is attached to the ID associated with each project entry in the aforementioned JSON file.
 
 
 
 <p>&nbsp;<p>
 
 
-(IMAGE COMING SOON..)
+
 <!-- 
 <p>&nbsp;<p>
 
