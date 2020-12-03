@@ -1,39 +1,55 @@
 [
 
     {
-        "title": "RECIPE • ROULETTE",
-        "projectlink": "https://albie140.github.io/Recipe-Roulette/" ,
-        "repolink": "https://github.com/jonathanschimpf/Recipe-Roulette" ,
-        "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/RecipeRoulette_Portfolio_Thumbnail_1200px.jpg?raw=true"
-    },
-    {
+        "id": 1,
         "title": "TRIP WISHLIST",
         "projectlink": "https://trip-wishlist.herokuapp.com/" ,
         "repolink": "https://github.com/jonathanschimpf/Trip-Wishlist" ,
+        "description": "Trip Wishlist is a full stack application for anyone who loves to travel and daydreams about their next adventure. This app allows a user to search cities they'd like to visit, and provides them with a curated selection of listings that are specific to hotel accomodations, restaurant suggestions, and ideas for museums to check out while in town. We wanted to develop a very simple, user-friendly tool for creating a starting wishlist itinerary for future trips. One that makes intial choices for the individual using it and stores those results for them to reference at a later time. This is possible through the use of account creation and authentication, allowing the user to log back in and view their wishlist items. You can think of this as a vacation foundation that gives the user hyperlink resources to navigate outside of the application and further research, if need be.",
         "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/Trip_Wishlist_Thumbnail_1200px.jpg?raw=true"
     },
     {
+        "id": 2,
         "title": "TABLE TURNER",
         "projectlink": "https://tableturner.herokuapp.com/" ,
         "repolink": "https://github.com/jonathanschimpf/Table-Turner" ,
+        "description": "Table Turner is an application for modern restaurants that are looking to expedite their order fulfillments and place greater visibility on allergy concerns and special order requests from customers. Orders can be placed on a tablet or other mobile devices and are immediately available for the kitchen staff to view and begin preparing. The front of the house wait staff can add table numbers and seat labels within each table to add further clarity to orders and keep track of exactly who ordered what. They have the ability to select course numbers to track when dishes should be brought out, check boxes to indicate allergy categories the kitchen should be aware of, and enter additional information about special requests and allergy specifics the guests may have. All orders are stored in a table view section after being placed with their appropriate labels applied. These orders can be removed if customers decide to cancel, or at the end of a shift when the night is over. Tables can be removed as well if the layout changes within the establishment. The team has the ability to edit their menu items; they can add new menu items when they develop them, and remove menu items when they have been discontinued or are no longer available.",
+        "descriptiontwo": "Demo accounts to test this BETA application (case-sensitive):",
+        "descriptionwaiter": "Username: TableTurnerWaiter → Password: TableTurnerWaiter123 → 'Wait Staff' ",
+        "descriptionmanager": "Username: TableTurnerManager → Password: TableTurnerManager123 → 'Manager' ",
+        "descriptionkitchen": "Username: TableTurnerKitcher → Password: TableTurnerKitchen123 → 'Kitchen' ",
         "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/Table.Turner_Thumbnail_1200px.jpg?raw=true"
     },
     {
+            "id": 3,
+            "title": "RECIPE • ROULETTE",
+            "projectlink": "https://albie140.github.io/Recipe-Roulette/" ,
+            "repolink": "https://github.com/jonathanschimpf/Recipe-Roulette",
+            "description": "Recipe Roulette is a random recipe generating application created for anyone who has a general idea of a recipe they are interested in or an ingredient they would like a recipe for. The user enters a food item, clicks search, and the application returns a result containing that food item or requested recipe. As a bonus to the roulette, we provide the user with a randomly generated cocktail pairing. This is a fun feature, as this result is truly random. If the pairing seems odd, the user can search again and will be presented with another beverage option. When the user receives a random meal recipe result, they are provided with an overview of the ingredients involved and a clickable link which will direct them to the full recipe and cooking instructions in another browser tab. This application is made possible through the use of two separate third party API's.",
+            "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/RecipeRoulette_Portfolio_Thumbnail_1200px.jpg?raw=true"
+    },
+    {
+        "id": 4,
         "title": "NOTE TAKER",
         "projectlink": "https://note-taker-express-js.herokuapp.com/" ,
         "repolink": "https://github.com/jonathanschimpf/Express-Note-Taker" ,
+        "description": "This is another take on a classic application that we all use on a daily basis. A digital notepad. It does exactly what you would imagine it does. You are able to author notes, save them, revisit them at a later time, and delete them when those thoughts aren't needed any longer. Never forget items on your grocery list again. List your monthly bills and check them off once you've paid them all. Record your thoughts when that next big idea comes to mind. It's your call. ",
         "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/Note.Taker_Thumbnail_1200px.jpg?raw=true"
     },
     {
+        "id": 5,
         "title": "5 DAY WEATHER DASHBOARD",
         "projectlink": "https://jonathanschimpf.github.io/A-5-Day-Weather-Dashboard/" ,
         "repolink": "https://github.com/jonathanschimpf/A-5-Day-Weather-Dashboard" ,
+        "description": "This is a minimalistic weather dashboard design. This application is a single page interface and allows the user to input a city of their chosing and receive current weather information. Upon searching, the city name, date and an icon representation is presented along with current temperature, humidity, wind speed, and UV index information. The UV index is color coded to provide a visual to the warning levels in that particular location. 0-2 will display green for low risk, 3-5 will display yellow for moderate risk, 5-7 will display orange for medium risk, and anything over 8 will warn you with a red display for high risk. Along with current weather, you will also be able to view the forecast for the next five days and those daily averages for temperature, humidity and an additional icon representation of the conditions. The information is then archived in the form of a previous search button within the same form that the user searched from. If you click a previous result button, you will once again be provided with the same criteria stated above. This information will be stored in local storage, and can be accessed later on for quick searching ability.",
         "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/5_Day_Weather_Dashboard_Thumbnail_1200px.jpg?raw=true"
     },
     {
+        "id": 6,
         "title": "ONLINE/OFFLINE BUDGET TOOL",
         "projectlink": "https://onlineoffline-budget-app.herokuapp.com/" ,
         "repolink": "https://github.com/jonathanschimpf/Online.Offline-Progressive-Budget-Application" ,
+        "description": "This project is an intuitive budgeting tool that allows a user to keep track of their deposits and expenses. These entries are stored in a table format with their provided description and amount, and visualized over time in a date stamped line chart as well (Thanks to Chart.js). This is a progressive web application that can be used both online, and offline if necessary. In the event that a connection is lost during use, transaction entries will be stored temporarily in IndexedDB pending storage, and then permanently added to the MongoDB database once a connection can be established again. A Service Worker file provides a cached version of the website when using offline so the user interface can continue to be utilized during an outage. This provides reliability at all times, specifically during moments of unpredictable connectivity or during travel when data/wifi might not necessarily be available in the moment.",
         "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/Online.Offline_Budget_Tool_Thumbnail_1200px.jpg?raw=true"
     }
 

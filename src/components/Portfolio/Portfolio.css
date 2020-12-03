@@ -59,6 +59,71 @@ a:hover {
     grid-gap: .5rem !important;
 }
 
+
+/* custom button adjusmtents for 
+project info modal usage */
+
+.customButton {
+       
+    color: white !important;
+    border-radius: 5px !important;
+    padding: 5px 8px !important;
+    background: black !important;
+    
+  }
+
+  .customButton {
+    background-color: black !important;
+} 
+
+ .customButton:hover {
+
+    background: #ffffff !important;
+    transition: all 0.35s ease-in-out !important;
+    color: rgb(0, 0, 0)!important;
+    border-color: black !important;
+  
+  }
+
+  /* custom modal settings */
+
+  button.close {
+
+    text-decoration: none !important;
+    
+    border-color: none !important;
+
+  }
+
+  .close {
+
+      color: white !important;
+      
+      
+ 
+
+  }
+
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+
+    background-color: black !important;
+  
+  }
+
+  .modal-body {
+
+    overflow-y: scroll;
+  }
+
+  .modal-title {
+
+      color: white !important;
+
+  }
+
+
 /* card deck width control support for the most narrow of devices (below 300px) */
 @media screen and (max-width: 310px) {
 
@@ -102,6 +167,10 @@ a:hover {
 }
 
 
+.regularCredentials {
+
+    font-size: 12px !important;
+}
 
 
 @media screen and (max-width: 200px) {
@@ -110,5 +179,58 @@ a:hover {
   
       font-size: 10px !important;
   
+    }
+  }
+
+
+
+  /* modal text adjustment at smaller mobile scale */
+
+  @media (max-width: 350px) {
+
+    .responsiveModalTitle {
+
+        font-size: 20px !important;
+    }
+  }
+
+  @media (max-width: 306px) {
+
+    .responsiveModalTitle {
+
+        font-size: 16px !important;
+    }
+  }
+
+
+  @media (max-width: 350px) {
+
+    .responsiveDescription {
+
+        font-size: 14px !important;
+    }
+  }
+
+  @media (max-width: 306px) {
+
+    .responsiveDescription {
+
+        font-size: 12px !important;
+    }
+  }
+
+  @media (max-width: 350px) {
+
+    .responsiveCredentials {
+
+        font-size: 10px !important;
+    }
+  }
+
+  @media (max-width: 306px) {
+
+    .responsiveCredentials {
+
+        font-size: 8px !important;
     }
   }

@@ -1,14 +1,20 @@
 import React from "react";
 import "./Portfolio.css";
-import { Container, CardDeck, Card } from "react-bootstrap";
+import { Container, CardDeck, Card, Modal, Button, Row, Col } from "react-bootstrap";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 import portfolio from "../../portfolio.json"
+import { useState } from "react";
 
 
 
 
 function PortfolioComp() {
+
+  const [modalShow, setModalShow] = React.useState(false);
+  const [projectDescription, setProjectDescription] = useState([])
+
+  console.log(projectDescription)
 
   return (
 
@@ -48,9 +54,27 @@ function PortfolioComp() {
                     <Card.Title className="portfolioHover pointer-link" style={{ paddingTop: '10px', textAlign: 'center', fontWeight: 'bold', color: 'black' }}>{item.title}</Card.Title></a><a href={item.projectlink} className="pointer-link" target="_blank">
                   </a>
 
-                  <Card.Text className="portfolioHover pointer-link" style={{ paddingTop: '1px', textAlign: 'center', fontWeight: 'bold'}}><a href={item.repolink} className="portfolioHover pointer-link" target="_blank"><i className="fa fa-github-square" aria-hidden="true" /> +REPO</a>
-                  </Card.Text>
+                <br/>
 
+                <Row>
+
+                  <Col xs={6}>
+                    <Card.Text className="portfolioHover pointer-link" variant="primary" 
+                    onClick={() => {setModalShow(true); setProjectDescription(item.id)}} 
+                    style={{ paddingTop: '10px', textAlign: 'right', fontWeight: 'bold', color: 'grey' }}>
+                    <i class="fas fa-info-circle"></i> +INFO
+                    </Card.Text>
+                  </Col>
+
+                  <Col xs={6}>
+                    <Card.Text className="portfolioHover pointer-link" style={{ paddingTop: '10px', textAlign: 'left', fontWeight: 'bold'}}><a href={item.repolink} className="portfolioHover pointer-link" target="_blank"><i className="fa fa-github-square" aria-hidden="true" /> +REPO</a>
+                    </Card.Text>
+                  </Col>
+
+                </Row>
+
+                <br/>
+                
                 </Card.Body>
               </Card>
             ))}
@@ -62,12 +86,71 @@ function PortfolioComp() {
               
            
        
-
+              <ProjectInformationModal
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+                />
 
         </>
 
 
     );
+
+    function ProjectInformationModal(props) {
+      return (
+    
+       <>
+      
+        <Modal 
+          {...props}
+          size="lg"
+          aria-labelledby="contained-modal-title-vcenter"
+          centered
+        >
+          
+          <Modal.Header closeButton >
+            <Modal.Title id="contained-modal-title-vcenter" className="responsiveModalTitle">
+              PROJECT DESCRIPTION
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            
+            {portfolio.filter(item => {
+
+            return item.id === projectDescription}).map(item => {
+
+            return (
+              <>
+            <p className="responsiveDescription">
+            {item.description}
+            {console.log(item.description)}
+            </p>
+            <p>
+            {item.descriptiontwo}  
+            </p>
+            <p className="regularCredentials responsiveCredentials">
+            {item.descriptionwaiter}  
+            </p>
+            <p className="regularCredentials responsiveCredentials">
+            {item.descriptionmanager}  
+            </p>
+            <p className="regularCredentials responsiveCredentials">
+            {item.descriptionkitchen}  
+            </p>
+            </>
+             )
+
+            })}
+          </Modal.Body>
+          <Modal.Footer>
+            <Button className="customButton" size="sm" variant="dark" variant="outline-dark" onClick={props.onHide}>RETURN</Button>
+          </Modal.Footer>
+          
+        </Modal>
+         
+        </>
+      );
+    }
 }
 
 export default PortfolioComp;
