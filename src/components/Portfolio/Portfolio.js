@@ -125,16 +125,16 @@ function PortfolioComp() {
             {item.description}
             {console.log(item.description)}
             </p>
-            <p>
+            <p className="whiteFont responsiveDescription">
             {item.descriptiontwo}  
             </p>
-            <p className="regularCredentials responsiveCredentials">
+            <p className="regularCredentials responsiveCredentials redFont">
             {item.descriptionwaiter}  
             </p>
-            <p className="regularCredentials responsiveCredentials">
+            <p className="regularCredentials responsiveCredentials redFont">
             {item.descriptionmanager}  
             </p>
-            <p className="regularCredentials responsiveCredentials">
+            <p className="regularCredentials responsiveCredentials redFont">
             {item.descriptionkitchen}  
             </p>
             </>

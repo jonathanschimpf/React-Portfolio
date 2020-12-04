@@ -17,7 +17,7 @@
         "descriptiontwo": "Demo accounts to test this BETA application (case-sensitive):",
         "descriptionwaiter": "Username: TableTurnerWaiter → Password: TableTurnerWaiter123 → 'Wait Staff' ",
         "descriptionmanager": "Username: TableTurnerManager → Password: TableTurnerManager123 → 'Manager' ",
-        "descriptionkitchen": "Username: TableTurnerKitcher → Password: TableTurnerKitchen123 → 'Kitchen' ",
+        "descriptionkitchen": "Username: TableTurnerKitchen → Password: TableTurnerKitchen123 → 'Kitchen' ",
         "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/Table.Turner_Thumbnail_1200px.jpg?raw=true"
     },
     {

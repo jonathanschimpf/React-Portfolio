@@ -124,6 +124,22 @@ project info modal usage */
   }
 
 
+ /* font color classes used specifically for interior modal attention grabs  */
+
+ 
+  .whiteFont {
+
+    color: white !important;
+
+  }
+
+  .redFont {
+
+    color: rgb(189, 0, 0) !important;
+
+  }
+
+
 /* card deck width control support for the most narrow of devices (below 300px) */
 @media screen and (max-width: 310px) {
 
