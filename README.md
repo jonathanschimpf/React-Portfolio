@@ -52,6 +52,13 @@ View my portfolio here =>‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏[`JONATHAN
 
 ---
 
+<p>&nbsp;</p>
+<p align= "center"><img src="public/images/Jonathan.Schimpf_React.App_12.2020.gif" alt="animated" href="https://jonathanschimpf.dev" /></p>
+<p>&nbsp;</p>   
+
+
+--- 
+
 
 <p>&nbsp;<p>
 
@@ -73,45 +80,9 @@ View my portfolio here =>‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏[`JONATHAN
 
 Data is being stored in a `.JSON` file which has an array of objects that represent each project that i am featuring within my portfolio. The data for each project is being dynamically generated from a single pre-built card component, and fit into a deck for mobile-responsiveness (along-side some css customization). This is very convenient for future maintenance as i'll only need to add the description, link, and image data to the associated dataset, and it will generate new project sections upon saving. I've chosen to keep things cleanly designed and added the usage of a pop up modal for lengthier project description info. The data is also being mapped into these modals and is attached to the ID associated with each project entry in the aforementioned JSON file.
 
-
-
 <p>&nbsp;<p>
 
-
-
-<!-- 
-<p>&nbsp;<p>
-
-
-[![IMAGE](public/readme_content/dunder.mifflin.directory_screengrab.jpg)](https://jonathanschimpf.github.io/Employee-Directory-ReactJS/) 
-
-
-<p>&nbsp;<p>
-
-
----  -->
-
-
-<!-- <p>&nbsp;<p>
-
-
-
-[![IMAGE](public/assets/images/screengrab_2.jpg)](https://onlineoffline-budget-app.herokuapp.com/) 
-
-
-<p>&nbsp;<p>
- 
-
-
----
-
-<p>&nbsp;</p>
-<p align= "center"><img src="public/assets/images/Online_Offline_Budget_Tool_Final.gif" alt="animated" href="https://onlineoffline-budget-app.herokuapp.com/" /></p>
-<p>&nbsp;</p>   
-
-
---- -->
-
+--- 
 
 
 <p>&nbsp;<p>

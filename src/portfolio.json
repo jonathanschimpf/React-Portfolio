@@ -21,12 +21,12 @@
         "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/Table.Turner_Thumbnail_1200px.jpg?raw=true"
     },
     {
-            "id": 3,
-            "title": "RECIPE • ROULETTE",
-            "projectlink": "https://albie140.github.io/Recipe-Roulette/" ,
-            "repolink": "https://github.com/jonathanschimpf/Recipe-Roulette",
-            "description": "Recipe Roulette is a random recipe generating application created for anyone who has a general idea of a recipe they are interested in or an ingredient they would like a recipe for. The user enters a food item, clicks search, and the application returns a result containing that food item or requested recipe. As a bonus to the roulette, we provide the user with a randomly generated cocktail pairing. This is a fun feature, as this result is truly random. If the pairing seems odd, the user can search again and will be presented with another beverage option. When the user receives a random meal recipe result, they are provided with an overview of the ingredients involved and a clickable link which will direct them to the full recipe and cooking instructions in another browser tab. This application is made possible through the use of two separate third party API's.",
-            "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/RecipeRoulette_Portfolio_Thumbnail_1200px.jpg?raw=true"
+         "id": 3,
+         "title": "RECIPE • ROULETTE",
+         "projectlink": "https://albie140.github.io/Recipe-Roulette/" ,
+         "repolink": "https://github.com/jonathanschimpf/Recipe-Roulette",
+         "description": "Recipe Roulette is a random recipe generating application created for anyone who has a general idea of a recipe they are interested in or an ingredient they would like a recipe for. The user enters a food item, clicks search, and the application returns a result containing that food item or requested recipe. As a bonus to the roulette, we provide the user with a randomly generated cocktail pairing. This is a fun feature, as this result is truly random. If the pairing seems odd, the user can search again and will be presented with another beverage option. When the user receives a random meal recipe result, they are provided with an overview of the ingredients involved and a clickable link which will direct them to the full recipe and cooking instructions in another browser tab. This application is made possible through the use of two separate third party API's.",
+         "image": "https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/RecipeRoulette_Portfolio_Thumbnail_1200px.jpg?raw=true"
     },
     {
         "id": 4,
