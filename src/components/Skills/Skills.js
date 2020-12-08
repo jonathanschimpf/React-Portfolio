@@ -27,7 +27,7 @@ function SkillsComp() {
          
                 <Row>
                     <Col sm={12}>
-                        <h2 className=" wow animate__animated animate__fadeInDown animate_slower">SKILLS + LANGUAGES</h2>
+                    <span className="fa wow animate__animated animate__fadeIn animate__slower"><h2 className=" wow animate__animated animate__fadeInDown animate_slower">SKILLS + LANGUAGES</h2></span>
                     </Col>
                 </Row>
             </Container>
