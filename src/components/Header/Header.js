@@ -28,7 +28,8 @@ function HeaderComp() {
                 <h2 className="display-4 greyed wow animate__animated animate__backInRight responsiveH2Font">FROM PHILADELPHIA, PA.</h2>
                 <br />
                 <br />
-                <a><i className="fa fa-angle-double-down fa-2x wow animate__animated animate__backInUp" aria-hidden="true" /></a>
+                <span className="fa wow animate__animated animate__bounce animate__delay-1s">
+                <a><i className="fa fa-angle-double-down fa-2x wow animate__animated animate__backInUp" aria-hidden="true" /></a></span>
                 <br />
                 <br /> 
                 <br />

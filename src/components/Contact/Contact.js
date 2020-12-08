@@ -50,8 +50,8 @@ function ContactComp() {
                 <br/>
                 <h5 className="wow animate__animated animate__fadeIn animate__slower responsiveConnect"><strong>CONNECT</strong></h5>
                 <br/>
-                <a><i class="fas fa-long-arrow-alt-down fa-2x wow animate__animated animate__bounce animate__delay-1s responsiveArrow"></i></a>
-
+                <span className="wow animate__animated animate__fadeIn animate__slower"><a><i style={{ fontColor: "black" }} className="fa fa-angle-double-down fa-2x portfolioFont wow animate__animated animate__bounce animate__delay-1s responsiveArrow" aria-hidden="true" /></a></span>
+                
             </Container>
 
         </>
