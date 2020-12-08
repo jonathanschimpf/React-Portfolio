@@ -30,7 +30,7 @@ function ContactComp() {
 
                 <Row>
                     <Col sm={12}>
-                        <h4><i className="fa fa-envelope responsiveEmail" />‏‏‎‏‏‎<a className="responsiveEmail blackoutLink" href="mailto:jonathan@jonathanschimpf.com">‎ jonathan@jonathanschimpf.com</a></h4>
+                        <h4><i className="fa fa-envelope responsiveEmail wow animate__animated animate__fadeIn animate__slower" />‏‏‎‏‏‎<a className="responsiveEmail blackoutLink wow animate__animated animate__fadeIn animate__slower" href="mailto:jonathan@jonathanschimpf.com">‎ jonathan@jonathanschimpf.com</a></h4>
                     </Col>
                 </Row>
                 <br />
@@ -39,7 +39,7 @@ function ContactComp() {
 
                 <Row>
                     <Col sm={12}>
-                        <h4><i className="fa fa-phone responsivePhone " />‏‏‎‏‏‎<a href="tel:570.440.0320" className="responsivePhone blackoutLink">‎ 570.449.0320</a></h4>
+                        <h4><i className="fa fa-phone responsivePhone wow animate__animated animate__fadeIn animate__slower" />‏‏‎‏‏‎<a href="tel:570.440.0320" className="responsivePhone blackoutLink wow animate__animated animate__fadeIn animate__slower">‎ 570.449.0320</a></h4>
                     </Col>
                 </Row>
 
