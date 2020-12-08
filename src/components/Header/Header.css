@@ -18,7 +18,7 @@ align-content: center !important
 
 .blacked {
     color: black !important;
-    font-weight: bold;
+    font-weight: 700 !important;
 }
 
 .greyed {
