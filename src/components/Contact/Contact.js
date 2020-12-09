@@ -20,7 +20,7 @@ function ContactComp() {
             <Container className="centeredContainer">
                 <Row>
                     <Col sm={12}>
-                        <h1 className="fontSizeAdjust wow animate__animated animate__fadeInDown animate_slower">LET'S WORK TOGETHER TO BUILD YOUR NEXT PROJECT.</h1>
+                    <h1 className="fontSizeAdjust wow animate__animated animate__fadeInDown animate_slower"><span className="fontSizeAdjust wow animate__animated animate__fadeIn animate__slower">LET'S WORK TOGETHER TO BUILD YOUR NEXT PROJECT.</span></h1>
                     </Col>
                 </Row>
 
