@@ -35,7 +35,7 @@ function SkillsComp() {
             <br />
             <br/>
             
-            <Container>
+            <Container className="nineSixtyWidth">
                 <Row sm={12} className="justify-content-center">
                     <div className="m-3">
                         <i className=" wow animate__animated animate__fadeIn animate__slower devicon-html5-plain-wordmark fa-4x skillsIcon skillsTransform" aria-hidden="true"></i>
@@ -99,6 +99,11 @@ function SkillsComp() {
                     </div>
 
                     <div className="m-3">
+                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-visualstudio-plain-wordmark fa-4x skillsIcon" aria-hidden="true"></i>
+                        <br />
+                    </div>
+
+                    <div className="m-3">
                         <i className="wow animate__animated animate__fadeIn animate__slower devicon-webpack-plain-wordmark fa-4x skillsIcon" aria-hidden="true"></i>
                         <br />
                     </div>
@@ -108,8 +113,18 @@ function SkillsComp() {
                         <br />
                     </div>
 
+                    {/* <div className="m-3">
+                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-babel-plain fa-4x skillsIcon" aria-hidden="true"></i>
+                        <br />
+                    </div> */}
+
                     <div className="m-3">
-                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-photoshop-line fa-4x skillsIcon" aria-hidden="true"></i>
+                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-photoshop-plain fa-4x skillsIcon" aria-hidden="true"></i>
+                        <br />
+                    </div>
+                    
+                    <div className="m-3">
+                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-premierepro-plain  fa-4x skillsIcon" aria-hidden="true"></i>
                         <br />
                     </div>
 
