@@ -28,10 +28,10 @@ import { Container, Row } from "react-bootstrap";
           <a href="https://www.instagram.com/schimpfstagram/" rel="noreferrer" target="_blank" className="fa fa-instagram fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div>
-        <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
+        {/* <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="mailto:jonathan@jonathanschimpf.com" className="fa fa-envelope-o fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
-        </div>
+        </div> */}
         <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="https://drive.google.com/file/d/113kn4xJoWAahb7rgfd5zsD5w_z1Jw7of/view?usp=sharing" rel="noreferrer" target="_blank" className="fa fa-file-pdf-o fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />

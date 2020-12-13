@@ -43,7 +43,7 @@ a:hover {
 
   .responsiveFooter{
 
-    font-size: 20px !important;
+    font-size: 21px !important;
 
   }
 }
@@ -52,27 +52,27 @@ a:hover {
 
     .responsiveFooter{
   
-      font-size: 18px !important;
+      font-size: 20px !important;
 
     }
   }
 
-  @media screen and (max-width: 340px) {
+   @media screen and (max-width: 340px) {
 
     .responsiveFooter{
   
-      font-size: 16px !important;
+      font-size: 19px !important;
   
     }
-  }
+  } 
   
 
   @media screen and (max-width: 300px) {
 
     .responsiveFooter{
   
-      font-size: 14px !important;
+      font-size: 18px !important;
   
     }
-  }
+  } 
   

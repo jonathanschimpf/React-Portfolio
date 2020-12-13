@@ -1,6 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-scroll";
 
 
 
@@ -15,28 +16,27 @@ function SkillsComp() {
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <br id="skills"></br>
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
             
             
-            <Container className="d-flex justify-content-center centeredSkills">
+            <Container className="d-flex justify-content-center centeredSkills ">
          
                 <Row>
                     <Col sm={12}>
-                    <span className="fa wow animate__animated animate__fadeIn animate__slower"><h2 className=" wow animate__animated animate__fadeInDown animate_slower">SKILLS + LANGUAGES</h2></span>
+                    <span className="fa wow animate__animated animate__fadeIn animate__slower"><h2 className=" wow animate__animated animate__fadeInDown animate_slower paddingAdjust">SKILLS + LANGUAGES</h2></span>
                     </Col>
                 </Row>
             </Container>
+
             <br />
-            <br />
-            <br/>
             
             <Container className="nineSixtyWidth">
-                <Row sm={12} className="justify-content-center">
+                <Row className=" d-flex justify-content-center align-middle heightQuery">
                     <div className="m-3">
                         <i className=" wow animate__animated animate__fadeIn animate__slower devicon-html5-plain-wordmark fa-4x skillsIcon skillsTransform" aria-hidden="true"></i>
                         <br />
@@ -149,7 +149,23 @@ function SkillsComp() {
                     </div>
                     
                 </Row>
-            </Container>
+                </Container>
+
+                <br />
+                
+                <Container className="centerSkillsArrow paddingAdjustArrow">
+            <Link
+                                href=""
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={800}
+                                 >
+                <span className="fa wow animate__animated animate__fadeIn animate__slower"><span className="fa wow animate__animated animate__bounce animate__delay-1s">
+                <a><i className="fa fa-angle-double-down fa-2x wow animate__animated animate__backInUp skillsIcon" aria-hidden="true" /></a></span></span>
+                </Link>
+                </Container>
             <br />
             <br />
             <br />
