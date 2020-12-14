@@ -26,6 +26,17 @@ a:focus {
 }
 
 
+ /* tool-tip  */
+
+ .tooltip-inner.tooltipFooter {
+
+  background-color: white ;
+  color: black ;
+  font-weight: bold ;
+
+  }
+
+
 a:hover {
     color: rgb(167, 167, 167);
 }

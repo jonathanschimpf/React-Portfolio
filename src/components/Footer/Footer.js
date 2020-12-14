@@ -1,7 +1,7 @@
 
 import React from "react";
 import "./Footer.css";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Tooltip, OverlayTrigger } from "react-bootstrap";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -12,36 +12,97 @@ import { Container, Row } from "react-bootstrap";
         
     <Container className="d-flex justify-content-center">
         <Row sm={12}>    
+        
+        {/* <OverlayTrigger
+                placement="top"
+                delay={{ show: 60, hide: 60 }}
+                overlay={
+                    <Tooltip>
+                        Photography
+                    </Tooltip> 
+                }   
+                    >   */}
         <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="https://jonathanschimpf.com" rel="noreferrer" target="_blank" className="fa fa-camera-retro fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div>
+        {/* </OverlayTrigger> */}
+
+        {/* <OverlayTrigger
+                placement="top"
+                delay={{ show: 60, hide: 60 }}
+                overlay={
+                    <Tooltip className="tooltipFooter">
+                        LinkedIn
+                    </Tooltip> 
+                }   
+                    >   */}
         <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="https://www.linkedin.com/in/jonathan-schimpf/" rel="noreferrer" target="_blank" className="fa fa-linkedin-square fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div>
+        {/* </OverlayTrigger> */}
+
+        {/* <OverlayTrigger
+                placement="top"
+                delay={{ show: 60, hide: 60 }}
+                overlay={
+                    <Tooltip className="tooltipFooter">
+                        GitHub
+                    </Tooltip> 
+                }   
+                    >   */}
         <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="https://github.com/jonathanschimpf" rel="noreferrer" target="_blank" className="fa fa-github-square fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div>
+        {/* </OverlayTrigger> */}
+
+        {/* <OverlayTrigger
+                placement="top"
+                delay={{ show: 60, hide: 60 }}
+                overlay={
+                    <Tooltip className="tooltipFooter">
+                        Instagram
+                    </Tooltip> 
+                }   
+                    >   */}
         <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="https://www.instagram.com/schimpfstagram/" rel="noreferrer" target="_blank" className="fa fa-instagram fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div>
+        {/* </OverlayTrigger> */}
+
+
+
         {/* <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="mailto:jonathan@jonathanschimpf.com" className="fa fa-envelope-o fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div> */}
+
+
+          {/* <OverlayTrigger
+                placement="top"
+                delay={{ show: 60, hide: 60 }}
+                className="tooltipFooter"
+                overlay={
+                    <Tooltip className="tooltipFooter">
+                        Resume
+                    </Tooltip> 
+                }   
+                    >   */}
         <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
           <a href="https://drive.google.com/file/d/113kn4xJoWAahb7rgfd5zsD5w_z1Jw7of/view?usp=sharing" rel="noreferrer" target="_blank" className="fa fa-file-pdf-o fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div>
+        {/* </OverlayTrigger> */}
+
+
         </Row>
       </Container>
+      
         <br />
         <br/>
-        
-        
 
         </>
 

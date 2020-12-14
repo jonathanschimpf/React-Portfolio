@@ -378,7 +378,8 @@ function SkillsComp() {
                 <br />
                 
                 <Container className="centerSkillsArrow paddingAdjustArrow">
-            <Link
+
+                <Link
                                 href=""
                                 to="contact"
                                 spy={true}
