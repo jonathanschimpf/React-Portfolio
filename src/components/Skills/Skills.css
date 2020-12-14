@@ -31,14 +31,12 @@ h2 {
 .skillsIcon {
 
     color: white;
-
 }
 
 .skillsIcon:hover {
 
     color: rgb(189, 0, 0);
     transition: all 0.25s !important;
-    
 }
 
 .skillsTransform:hover
@@ -100,7 +98,7 @@ h2 {
 
  /* skills section height adjustments that sync */
  /* with built in bootstrap responsive breakpoints */
- 
+
 
 @media (min-width: 384px) { 
     .heightQuery {
@@ -145,3 +143,27 @@ h2 {
     height: 250px !important
     }
  }
+
+ @media (max-width: 671px) { 
+    
+    .heightQuery {
+    height: 250px !important
+    }
+ }
+
+
+ /* tool-tip  */
+
+ .tooltip-inner {
+    /* background-color: rgb(189, 0, 0) !important;
+    color: white !important; */
+
+    color: rgb(189, 0, 0) !important;
+    font-weight: bold !important;
+
+    }
+
+    /* .tooltip.bs-tooltip-top .arrow:before {
+        border-top-color: rgb(189, 0, 0) !important;
+       padding-bottom: 10px!important; 
+    } */
