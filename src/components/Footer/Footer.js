@@ -92,7 +92,7 @@ import { Container, Row, Tooltip, OverlayTrigger } from "react-bootstrap";
                 }   
                     >   */}
         <div className="m-3 wow animate__animated animate__fadeIn animate__slow">
-          <a href="https://drive.google.com/file/d/113kn4xJoWAahb7rgfd5zsD5w_z1Jw7of/view?usp=sharing" rel="noreferrer" target="_blank" className="fa fa-file-pdf-o fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
+          <a href="https://drive.google.com/file/d/1zfOihPM_aWp2yO9gg8-WXVfqFFiBh7fX/view?usp=sharing" rel="noreferrer" target="_blank" className="fa fa-file-pdf-o fa-2x button responsiveFooter blackoutIcons" aria-hidden="true" />
           <br />
         </div>
         {/* </OverlayTrigger> */}
