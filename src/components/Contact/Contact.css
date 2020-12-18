@@ -43,8 +43,14 @@ a:hover {
 
     text-align: center !important;
     align-content: center !important;
+    
 }
 
+.contactTitleWidth {
+
+  max-width: 540px !important;
+  
+}
 
 @media screen and (max-width: 490px) {
 

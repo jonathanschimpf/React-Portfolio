@@ -54,7 +54,7 @@ function PortfolioComp() {
           <CardDeck lg={2}>
             {portfolio.map(item => (
 
-              <Card style={{ border: 'none' }}>
+              <Card className="wow animate__animated animate__fadeIn animate_slower" style={{ border: 'none' }}>
                 <a href={item.projectlink} className="pointer-link" target="_blank">
                   <Card.Img variant="top" src={item.image} className="pointer-link hvr-grow" target="_blank" fluid />
                 </a>
