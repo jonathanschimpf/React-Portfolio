@@ -124,23 +124,6 @@ function SkillsComp() {
                 delay={{ show: 60, hide: 60 }}
                 overlay={
                     <Tooltip>
-                        Bootstrap 
-                    </Tooltip> 
-                }   
-                    >  
-                    <div className="m-3 p-3">
-                        <i className="wow animate__animated animate__fadeIn animate__slower fab fa-bootstrap fa-4x skillsIcon" aria-hidden="true"></i>
-                        <br />
-                    </div>
-                </OverlayTrigger>    
-
-
-
-                <OverlayTrigger
-                placement="top"
-                delay={{ show: 60, hide: 60 }}
-                overlay={
-                    <Tooltip>
                         Node.js
                     </Tooltip> 
                 }   
@@ -173,15 +156,31 @@ function SkillsComp() {
                 delay={{ show: 60, hide: 60 }}
                 overlay={
                     <Tooltip>
-                        Express.js
+                        Bootstrap 
                     </Tooltip> 
                 }   
                     >  
                     <div className="m-3 p-3">
-                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-express-original fa-4x skillsIcon" aria-hidden="true"></i>
+                        <i className="wow animate__animated animate__fadeIn animate__slower fab fa-bootstrap fa-4x skillsIcon" aria-hidden="true"></i>
                         <br />
                     </div>
-                </OverlayTrigger>
+                </OverlayTrigger> 
+
+                                
+                <OverlayTrigger
+                placement="top"
+                delay={{ show: 60, hide: 60 }}
+                overlay={
+                    <Tooltip>
+                        Ui Kit 
+                    </Tooltip> 
+                }   
+                    >  
+                    <div className="m-3 p-3">
+                        <i className="wow animate__animated animate__fadeIn animate__slower fab fa-uikit fa-4x skillsIcon" aria-hidden="true"></i>
+                        <br />
+                    </div>
+                </OverlayTrigger>       
 
 
                 <OverlayTrigger
@@ -189,12 +188,12 @@ function SkillsComp() {
                 delay={{ show: 60, hide: 60 }}
                 overlay={
                     <Tooltip>
-                        Visual Studio Code
+                        Express.js
                     </Tooltip> 
                 }   
                     >  
                     <div className="m-3 p-3">
-                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-visualstudio-plain fa-4x skillsIcon" aria-hidden="true"></i>
+                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-express-original fa-4x skillsIcon" aria-hidden="true"></i>
                         <br />
                     </div>
                 </OverlayTrigger>
@@ -269,6 +268,22 @@ function SkillsComp() {
                 delay={{ show: 60, hide: 60 }}
                 overlay={
                     <Tooltip>
+                        Babel JS Compiler
+                    </Tooltip> 
+                }   
+                    >  
+                    <div className="m-3 p-3">
+                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-babel-plain fa-4x skillsIcon" aria-hidden="true"></i>
+                        <br />
+                    </div>  
+                </OverlayTrigger>
+
+
+                <OverlayTrigger
+                placement="top"
+                delay={{ show: 60, hide: 60 }}
+                overlay={
+                    <Tooltip>
                         Handlebars.js
                     </Tooltip> 
                 }   
@@ -278,12 +293,6 @@ function SkillsComp() {
                         <br />
                     </div>
                 </OverlayTrigger>
-
-
-                     {/* <div className="m-3 p-3">
-                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-babel-plain fa-4x skillsIcon" aria-hidden="true"></i>
-                        <br />
-                    </div>  */}
 
 
                 <OverlayTrigger
@@ -317,6 +326,21 @@ function SkillsComp() {
                     </div>
                 </OverlayTrigger>
 
+                
+                <OverlayTrigger
+                placement="top"
+                delay={{ show: 60, hide: 60 }}
+                overlay={
+                    <Tooltip>
+                        Visual Studio Code
+                    </Tooltip> 
+                }   
+                    >  
+                    <div className="m-3 p-3">
+                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-visualstudio-plain fa-4x skillsIcon" aria-hidden="true"></i>
+                        <br />
+                    </div>
+                </OverlayTrigger>
 
 
                 <OverlayTrigger
@@ -324,14 +348,14 @@ function SkillsComp() {
                 delay={{ show: 60, hide: 60 }}
                 overlay={
                     <Tooltip>
-                        Slack
+                        Secure Shell
                     </Tooltip> 
                 }   
-                    >  
-                    <div className="m-3 p-3">
-                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-slack-plain fa-4x skillsIcon " aria-hidden="true"></i>
+                    >      
+                <div className="m-3 p-3">
+                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-ssh-original-wordmark fa-4x skillsIcon " aria-hidden="true"></i>
                         <br />
-                    </div>
+                </div>
                 </OverlayTrigger>
 
                 
@@ -345,7 +369,7 @@ function SkillsComp() {
                 }   
                     >      
                     <div className="m-3 p-3">
-                        <i className="wow animate__animated animate__fadeIn animate__slower fab fa-git fa-4x skillsIcon" aria-hidden="true"></i>
+                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-git-plain-wordmark fa-4x skillsIcon" aria-hidden="true"></i>
                         <br />
                     </div>
                 </OverlayTrigger>
@@ -381,6 +405,39 @@ function SkillsComp() {
                         <br />
                     </div> 
                 </OverlayTrigger>    
+
+
+                <OverlayTrigger
+                placement="top"
+                delay={{ show: 60, hide: 60 }}
+                overlay={
+                    <Tooltip>
+                        GitLab
+                    </Tooltip> 
+                }   
+                    >  
+                    <div className="m-3 p-3">
+                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-gitlab-plain fa-4x skillsIcon " aria-hidden="true"></i>
+                        <br />
+                    </div>
+                </OverlayTrigger>
+
+
+                <OverlayTrigger
+                placement="top"
+                delay={{ show: 60, hide: 60 }}
+                overlay={
+                    <Tooltip>
+                        Slack
+                    </Tooltip> 
+                }   
+                    >  
+                    <div className="m-3 p-3">
+                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-slack-plain fa-4x skillsIcon " aria-hidden="true"></i>
+                        <br />
+                    </div>
+                </OverlayTrigger>
+
 
                 </Row>
                 </Container>
