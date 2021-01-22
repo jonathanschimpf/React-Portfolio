@@ -357,6 +357,22 @@ function SkillsComp() {
                         <br />
                     </div>
                 </OverlayTrigger>
+
+
+                <OverlayTrigger
+                placement="top"
+                delay={{ show: 60, hide: 60 }}
+                overlay={
+                    <Tooltip>
+                        WebCenter CMS
+                    </Tooltip> 
+                }   
+                    >  
+                    <div className="m-3 p-3">
+                        <i className="wow animate__animated animate__fadeIn animate__slower devicon-oracle-original fa-4x skillsIcon" aria-hidden="true"></i>
+                        <br />
+                    </div>
+                </OverlayTrigger>
                 
 
                 <OverlayTrigger
