@@ -129,85 +129,97 @@ to a single vertical column at 265px. this is in tandem with the original width 
     align-content: center !important
     }
 
-    .vertical-center {
-        
-        vertical-align: middle !important;
-       
-        align-items: center !important;
-      }   
+.vertical-center {
+    
+    vertical-align: middle !important;
+    
+    align-items: center !important;
+    }   
+
+
+.tooltip-inner {
+/* background-color: rgb(189, 0, 0) !important;
+color: white !important; */
+
+color: rgb(189, 0, 0) !important;
+font-weight: bold !important;
+
+}
+
+/* .tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: rgb(189, 0, 0) !important;
+    padding-bottom: 10px!important; 
+} */
 
 
 
 
 
- /* skills section height adjustments that sync */
- /* with built in bootstrap responsive breakpoints */
+
+
+
+
+/* =================
+NOT CURRENTLY IN USE
+==================== */
+
+
+
+/* skills section height adjustments that sync */
+/* with built in bootstrap responsive breakpoints */
 
 
 /* @media (min-width: 384px) { 
-    .heightQuery {
-        height: 495px !important
-        }
+.heightQuery {
+    height: 495px !important
+    }
 
- }
- 
+}
+
 @media (min-width: 512px) { 
-    .heightQuery {
-        height: 396px !important
-        }
+.heightQuery {
+    height: 396px !important
+    }
 
- }
+}
 
- @media (min-width: 480px) { 
-    .heightQuery {
-        height: 396px !important
-        }
+@media (min-width: 480px) { 
+.heightQuery {
+    height: 396px !important
+    }
 
- }
+}
 
- @media (min-width: 961px) { 
+@media (min-width: 961px) { 
 
-    .heightQuery {
-        height: 250px !important
-        }
+.heightQuery {
+    height: 250px !important
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
 /* @media (min-width: 992px) { 
 
-    .heightQuery {
-        height: 250px !important
-        }
+.heightQuery {
+    height: 250px !important
+    }
 } */
 
 /* // Extra large devices (large desktops, 1200px and up) */
 /* @media (min-width: 1200px) { 
-    
-    .heightQuery {
-    height: 250px !important
-    }
- }
 
- @media (max-width: 671px) { 
-    
-    .heightQuery {
-    height: 250px !important
-    }
- } */ 
+.heightQuery {
+height: 250px !important
+}
+}
+
+@media (max-width: 671px) { 
+
+.heightQuery {
+height: 250px !important
+}
+} */ 
 
 
- /* tool-tip  */
+/* tool-tip  */
 
- .tooltip-inner {
-    /* background-color: rgb(189, 0, 0) !important;
-    color: white !important; */
-
-    color: rgb(189, 0, 0) !important;
-    font-weight: bold !important;
-
-    }
-
-    /* .tooltip.bs-tooltip-top .arrow:before {
-        border-top-color: rgb(189, 0, 0) !important;
-       padding-bottom: 10px!important; 
-    } */
