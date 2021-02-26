@@ -71,6 +71,47 @@ h2 {
     
 }
 
+/* media queries effecting the container width holding the skills icons.
+this solves uneven breaks from the grid so that top down each row has even number 
+of icons, aside from the last row having less at times. this spans 895px all the way
+to a single vertical column at 265px. this is in tandem with the original width requirements. */
+
+@media (max-width: 895px) { 
+    .nineSixtyWidth.container {
+        max-width: 878px !important
+        }
+    }     
+
+@media (max-width: 767px) { 
+    .nineSixtyWidth.container {
+        max-width: 750px !important
+        }
+    }
+
+@media (max-width: 639px) { 
+    .nineSixtyWidth.container {
+        max-width: 622px !important
+        }
+    }    
+
+@media (max-width: 519px) { 
+    .nineSixtyWidth.container {
+        max-width: 502px !important
+        }
+    }    
+@media (max-width: 383px) { 
+    .nineSixtyWidth.container {
+        max-width: 366px !important
+        }
+    }  
+
+@media (max-width: 263px) { 
+    .nineSixtyWidth.container {
+        max-width: 246px !important
+        }
+    }        
+            
+
 .paddingAdjust {
 
     padding-bottom: 80px !important;
@@ -94,6 +135,8 @@ h2 {
        
         align-items: center !important;
       }   
+
+
 
 
 
