@@ -176,8 +176,8 @@ project info modal usage */
 
 .hvr-grow:hover {
 
-    /* transform: scale(1.1); */
-    filter: brightness(94%);
+    transform: scale(1.1);
+    filter: brightness(97%);
     
 
 }
