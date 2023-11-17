@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+// GLOBALLY IMPORTED BOOTSTRAP STYLES BEFORE OTHER STYLES
+import 'bootstrap/dist/css/bootstrap.min.css';
+// ------------------------------------------------------
 import './App.css';
+import React from "react";
+import NavbarComp from "./components/Navbar/Navbar";
+import HeaderComp from "./components/Header/Header";
+import HeroImageComp from "./components/HeroImage/HeroImage";
+import HelloImJonathanComponent from "./components/HelloImJonathan/HelloImJonathan";
+import ProjectsComponent from "./components/Projects/Projects";
+import SkillsComponent from "./components/Skills/Skills";
+import ContactComp from "./components/Contact/Contact";
+import FooterComp from "./components/Footer/Footer";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <>
+    
+    <NavbarComp />
+    <HeaderComp />
+    <HeroImageComp />
+    <HelloImJonathanComponent />
+    <ProjectsComponent />
+    <SkillsComponent />
+    <ContactComp />
+    <FooterComp />
+
+    </>
+
   );
 }
 
 export default App;
+
+

@@ -1,0 +1,58 @@
+.navbar,
+nav {
+  padding-top: 4px;
+  padding-bottom: 4.8px;
+  background: black;
+  background-color: black;
+  width: 100%;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-collapse {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link,
+.pointer-link {
+  cursor: pointer;
+}
+
+.collapse.navbar-collapse {
+  width: 100%;
+}
+
+.navbar-brand {
+  font-size: 16.5px;
+  padding-bottom: 3px;
+  padding-left: 0.5em;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0 !important;
+}
+
+#brandOverride {
+  margin-left: 0 !important;
+}
+
+
+/* justify -content DOES NOT WORK above and below */
+
+/* flex-start and flex-end DO NOT WORK ^ */
+
+.greyFont {
+  color: rgb(167, 167, 167);
+}
+
+.whiteFont {
+  color: white;
+}
+
+.nav-item {
+  color: rgb(167, 167, 167);
+  margin-left: auto;
+}

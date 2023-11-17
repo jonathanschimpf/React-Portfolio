@@ -1,0 +1,165 @@
+/* Main Container */
+.projectsContainer {
+  max-width: 200vw;
+  margin: auto;
+  padding-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+/* Project Title Styling */
+.projectsTitleContainer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  font-size: 24px;
+  color: #000000;
+}
+
+/* Cards Styles */
+.card {
+  transition: all 0.3s ease;
+  border: none;
+  background-color: transparent;
+}
+
+.card-body {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Button Links */
+.btn-link {
+  background: none;
+  border: none;
+  color: #000;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  display: inline-flex; /* Aligns icon and text inline */
+  align-items: center; /* Centers items vertically */
+  gap: 8px; /* Adds space between icon and text */
+}
+
+/* Hover effect for the entire link container */
+.info-repo-link:hover .btn-link,
+.info-repo-link:hover .btn-link .fa,
+.info-repo-link:hover .btn-link .link-text,
+.info-repo-link a:hover .fa,
+.info-repo-link a:hover .link-text {
+  color: rgb(167, 167, 167); /* Hover effect color */
+  transition: color 0.3s ease-in-out;
+}
+
+/* Card Titles and Text */
+.card-title,
+.cardtext {
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding-top: 0.95em;
+}
+
+.card-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Image Container */
+.projectDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+/* Link Styles */
+.projectDiv a {
+  display: block;
+  width: 30%;
+  text-align: center;
+}
+
+.imageResize {
+  max-height: 15%;
+}
+.btn-close{
+  color: black;
+}
+
+/* Image Styles */
+.projectImage{
+  max-width: 100%;
+  height: auto;
+  /* Promote to its own composite layer, might engage GPU acceleration IT DOES */
+  transform: translateZ(0);
+   /* Apply transition to both the scaling and the layer promotion */
+  transition: transform 3s ease-out;
+  /* Changed to JUST ease-out for a smoother end */
+}
+
+/* Hover Effects for images */
+.projectImage:hover {
+  transition-duration: 3s;
+  /* Apply the scale transform along with translateZ(0) for smoothness */
+  transform: scale(1.1) translateZ(0);
+}
+
+/* Text and Icon Links */
+a.text-black {
+  color: #000;
+  text-decoration: none;
+}
+
+a.text-black:hover,
+a.hover-effect:hover {
+  color: rgb(167, 167, 167); /* Hover effect color */
+  transition: color 2s ease-in-out;
+  
+}
+
+/* Info and Repo Link Containers */
+.info-repo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.info-repo-link a {
+  color: #000; /* Default color */
+  text-decoration: none; /* No underline */
+}
+
+.info-repo-link a:hover .fa,
+.info-repo-link a:hover span {
+  color: rgb(167, 167, 167); /* Hover effect color */
+}
+
+.info-repo-link a:hover {
+  color: rgb(167, 167, 167); /* Ensures that the text also receives hover color */
+  transition: color 0.3s ease-in-out;
+}
+
+.padding-top {
+  padding-top: 1.5em;
+}
+

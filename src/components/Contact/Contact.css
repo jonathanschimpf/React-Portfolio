@@ -1,0 +1,137 @@
+.button,
+.button:hover,
+.button:active,
+.button:visited,
+.button:focus,
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+    text-decoration: none;
+}
+
+.fa:hover,
+a:hover {
+    color: rgb(167, 167, 167);
+}
+
+.fontSizeAdjust {
+    font-size: 34px;
+}
+
+.blackoutLink,
+a {
+    color: black;
+}
+
+.centeredContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.iconRow {
+  margin-top: 100px;   
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactTitleWidth {
+  max-width: 540px;
+}
+
+.tooltip-hack.tooltip-inner {
+  color: rgb(0, 0, 0) !important;
+  background-color: white !important;
+}
+
+/* WORK IT OUT
+
+.fa-2x
+
+@media (max-width: 1050px) {
+  .responsiveIcon {
+    margin: -2.5px;
+    font-size: 98.25%;
+  }
+  .divIcons{
+    padding: -1.5px;
+  }
+}
+
+
+@media (max-width: 950px) {
+  .responsiveIcon {
+    margin: -5px;
+    font-size: 97.5%;
+  }
+  .divIcons {
+    padding: -2.5px;
+  }
+}
+
+@media (max-width: 850px) {
+  .responsiveIcon {
+    margin: -10px;
+    font-size: 95%;
+  }
+  .divIcons{
+    padding: -4px;
+  }
+}
+
+@media (max-width: 750px) {
+  .responsiveIcon {
+    margin: -15px;
+    font-size: 92.5%;
+  }
+  .divIcons {
+    padding: -6px;
+  }
+}
+
+@media (max-width: 650px) {
+  .responsiveIcon {
+    margin: -20px;
+    font-size: 90%;
+  }
+  .divIcons {
+    padding: -8px;
+  }
+}
+
+@media (max-width: 550px) {
+  .responsiveIcon {
+    margin: -22.5px;
+    font-size: 88.5%;
+  }
+  .divIcons {
+    padding: -10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .responsiveIcon {
+    margin: -25.5px;
+    font-size: 85%;
+  }
+  .divIcons {
+    padding: -11.5px;
+  }
+}
+
+@media (max-width: 350px) {
+  .responsiveIcon {
+    margin: -30px;
+    font-size: 82.5%;
+  }
+  .divIcons {
+    padding: -15px;
+  }
+} */

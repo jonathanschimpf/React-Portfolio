@@ -1,0 +1,53 @@
+
+
+.centerHeader {
+  margin-top:48.8px;
+}
+
+.containerHeader {
+  min-height: 100vh;
+  width:100%;
+  background: white;
+} 
+
+.centerHeader {
+  display: flex;
+  text-align: center;
+  align-content: center;
+}
+
+.messageMargins {
+  margin: auto;
+  padding-top:auto;
+  padding-bottom: auto;
+  vertical-align: middle;
+}
+
+.blacked {
+  color: black;
+  font-weight: 700;
+}
+
+.greyed {
+  color:rgb(104, 104, 104);
+}
+
+/* MEDIA QUERIES FOR SMALLER SCREEN WIDTHS */
+@media screen and (max-width: 400px) {
+  h1.responsiveH1Font {
+    font-size: 12vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h2.responsiveH2Font {
+    font-size: 12vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  i.fa-angle-double-down::before {
+    font-size: 9vw;
+  }
+}
+

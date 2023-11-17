@@ -1,0 +1,99 @@
+.heroIMAGE {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-image: url("https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/jon_berks_crop.jpg?raw=true");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -webkit-background-position: center;
+  -moz-background-position: center;
+  -o-background-position: center;
+  background-position: center;
+  -webkit-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -o-background-attachment: fixed;
+  background-attachment: fixed;
+}
+
+.heroHEIGHT:before {
+  z-index: 0;
+  position: fixed;
+  overflow: hidden;
+}
+
+/* remove parallax and apply background attachment scroll @ mobile devices at 768 pixels and below  */
+@media (max-width: 768px) {
+  .heroIMAGE {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url("https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/jon_berks_crop.jpg?raw=true");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    -o-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    -webkit-background-position: center;
+    -moz-background-position: center;
+    -o-background-position: center;
+    background-position: center;
+    -webkit-background-attachment: scroll;
+    -moz-background-attachment: scroll;
+    -o-background-attachment: scroll;
+    background-attachment: scroll;
+  }
+
+  .heroHEIGHT:before {
+    z-index: 0;
+    position: fixed;
+    overflow: hidden;
+  }
+}
+
+/* remove parallax and apply background attachment scroll @ iPad PRO and other devices at 1024 px */
+
+@media (min-width: 1023px) and (max-width: 1024px) {
+  .heroIMAGE {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url("https://github.com/jonathanschimpf/React-Portfolio/blob/main/public/images/jon_berks_crop.jpg?raw=true");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    -o-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    -webkit-background-position: center;
+    -moz-background-position: center;
+    -o-background-position: center;
+    background-position: center;
+    -webkit-background-attachment: scroll;
+    -moz-background-attachment: scroll;
+    -o-background-attachment: scroll;
+    background-attachment: scroll;
+  }
+
+  .heroHEIGHT:before {
+    z-index: 0;
+    position: fixed;
+    overflow: hidden;
+  }
+}
