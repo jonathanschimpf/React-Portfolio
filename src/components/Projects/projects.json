@@ -1,52 +1,19 @@
 [
+  {
+    "id": 1,
+    "title": "Meta Front-End Developer Certificate Capstone Project",
+    "projectlink": "https://jonathanschimpf.github.io/front-end-capstone-meta-x-coursera/",
+    "repolink": "https://github.com/jonathanschimpf/front-end-capstone-meta-x-coursera",
+    "description": "Little Lemon | Authentic Mediterranean Cuisine in Chicago",
+    "image": "images/Little-Lemon-Logo-Black.png"
+  },
 
-    {
-        "id": 1,
-        "title": "Meta Front-End Developer Certificate Capstone Project",
-        "projectlink": "https://jonathanschimpf.github.io/front-end-capstone-meta-x-coursera/" ,
-        "repolink": "https://github.com/jonathanschimpf/front-end-capstone-meta-x-coursera" ,
-        "description": "Little Lemon | Authentic Mediterranean Cuisine in Chicago",
-        "image": "images/Little-Lemon-Logo-Black.png"
-    }    
-
+  {
+    "id": 2,
+    "title": "From Tumblr To A React App",
+    "projectlink": "https://jonathanschimpf.com",
+    "repolink": "https://github.com/jonathanschimpf/Tumblr-To-React",
+    "description": "My Tumblr account, that has served as a personal photo journal for me since 2010, entirely exported and rebuilt in a React setting. Python made extracting the captions possible. Infinite scroll to avoid pagination when traveling back in time.",
+    "image": "images/FromTumblrToReact-Project.png"
+  }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

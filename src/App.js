@@ -1,6 +1,6 @@
 // GLOBALLY IMPORTED BOOTSTRAP STYLES BEFORE OTHER STYLES
 import 'bootstrap/dist/css/bootstrap.min.css';
-// ------------------------------------------------------
+// -----------------------------------------------------LATEST-
 import './App.css';
 import React from "react";
 import NavbarComp from "./components/Navbar/Navbar";

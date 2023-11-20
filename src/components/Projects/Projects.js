@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Projects.css";
 import { Container, Card, Modal, Button, Row, Col } from "react-bootstrap";
-import Projects from "./projects.json";
+import Projects from "./Projects.json";
 
 function ProjectsComponent() {
   const [modalShow, setModalShow] = useState(false);
@@ -63,12 +63,12 @@ function ProjectsComponent() {
           className="animate__animated animate__fadeInDown animate_slower"
           id="projects"
         >
-        RECENT PROJECTS.
+          RECENT PROJECTS.
         </h1>
       </Container>
 
       <Container className="mb-5 projectsContainer">
-        <Row xs={1} md={3} className="g-4">
+        <Row xs={1} md={3} className="g-4 justify-content-md-center">
           {Projects.map((item) => (
             <Col key={item.id}>
               <Card className="project-card">
@@ -128,74 +128,7 @@ function ProjectsComponent() {
             </Col>
           ))}
         </Row>
-
-        {/* //test */}
-
-        <Row xs={1} md={3} className="g-4">
-          {Projects.map((item) => (
-            <Col key={item.id}>
-              <Card className="project-card">
-                <div className="projectDiv">
-                  <a href={item.projectlink} target="_blank" rel="noreferrer">
-                    <Card.Img
-                      className="border-0 imageResize projectImage"
-                      variant="top"
-                      src={require(`../../${item.image}`)}
-                    />
-                  </a>
-                </div>
-                <Card.Body>
-                  <Card.Title className="text-center padding-top font-weight-bold">
-                    <a
-                      href={item.projectlink}
-                      className="text-black hover-effect"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {item.title}
-                    </a>
-                  </Card.Title>
-                  <Row className="mt-2">
-                    <Col xs={6} className="text-right">
-                      <div className="info-repo-link">
-                        <button
-                          className="cardtext btn-link"
-                          onClick={() => {
-                            setModalShow(true);
-                            setProjectDescription(item.id);
-                          }}
-                        >
-                          <i className="fas fa-info-circle"></i>
-                          <span className="link-text">+INFO</span>
-                        </button>
-                      </div>
-                    </Col>
-                    <Col xs={6}>
-                      <div className="info-repo-link">
-                        <a
-                          href={item.repolink}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <i
-                            className="fa fa-github-square"
-                            aria-hidden="true"
-                          ></i>
-                          <span className="link-text">+REPO</span>
-                        </a>
-                      </div>
-                    </Col>
-                  </Row>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
-        </Row>
-
-
       </Container>
-
-      
 
       <ProjectInformationModal
         show={modalShow}
