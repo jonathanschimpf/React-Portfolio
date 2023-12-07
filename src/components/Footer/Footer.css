@@ -28,11 +28,33 @@
   opacity: 0.7;
 }
 
-.tooltip-inner-footer {
-  background-color: #fff !important;
-  color: #000000  !important;
-  border-radius: 4px  !important;
+
+.tooltipFooter .tooltip-inner {
+  background-color: transparent !important; 
+  color:rgb(150, 150, 150) !important;
+  font-weight: bold;
 }
+
+
+/* Remove the tooltip arrow entirely */
+.tooltipFooter .tooltip .arrow::before,
+.tooltipFooter .tooltip .arrow::after {
+  content: none !important; 
+}
+
+/* If you want to change the arrow color instead of removing */
+.tooltipFooter .tooltip .arrow::before {
+  border-bottom-color: transparent !important; 
+}
+
+ /* TOOLTIP ARROW DELETE */
+.tooltipFooter .tooltip-arrow,
+.tooltipFooter .arrow {
+  display: none !important;
+}
+
+
+
 
 /* RESPONSIVE SOCIALS AND RESUME */
 
@@ -49,80 +71,18 @@
 
 @media (max-width: 950px) {
   .responsiveIcon {
-    margin: -5px;
-    font-size: 97.5%;
-  }
-  .divfooter {
-    padding: -2.5px;
-  }
-}
-
-@media (max-width: 850px) {
-  .responsiveIcon {
-    margin: -10px;
-    font-size: 95%;
-  }
-  .divfooter {
-    padding: -4px;
-  }
-}
-
-@media (max-width: 750px) {
-  .responsiveIcon {
-    margin: -15px;
-    font-size: 92.5%;
-  }
-  .divfooter {
-    padding: -6px;
+    /* Smaller font-size as per your design */
+    font-size: 90%;
+    /* Adjust padding and margin if necessary */
+    padding: 0.5em;
   }
 }
 
 @media (max-width: 650px) {
   .responsiveIcon {
-    margin: -20px;
-    font-size: 90%;
-  }
-  .divfooter {
-    padding: -8px;
-  }
-}
-
-@media (max-width: 550px) {
-  .responsiveIcon {
-    margin: -22.5px;
-    font-size: 88.5%;
-  }
-  .divfooter {
-    padding: -10px;
-  }
-}
-
-@media (max-width: 450px) {
-  .responsiveIcon {
-    margin: -25.5px;
-    font-size: 85%;
-  }
-  .divfooter {
-    padding: -11.5px;
-  }
-}
-
-@media (max-width: 390px) {
-  .responsiveIcon {
-    margin: -30px;
-    font-size: 82.5%;
-  }
-  .divfooter {
-    padding: -15px;
-  }
-}
-
-@media (max-width: 325px) {
-  .responsiveIcon {
-    margin: -40px;
-    font-size: 70%;
-  }
-  .divfooter {
-    padding: -30px;
+    /* Even smaller font-size for very small devices */
+    font-size: 80%;
+    /* Adjust padding and margin to keep the layout tidy */
+    padding: 0.25em;
   }
 }

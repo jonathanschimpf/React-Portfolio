@@ -1,165 +1,156 @@
 /* Main Container */
 .projectsContainer {
-  max-width: 200vw;
   margin: auto;
   padding-top: 2vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  
+  margin-bottom: 45vh;
 }
 
 /* Project Title Styling */
 .projectsTitleContainer {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-top: 12em;
+  margin-bottom: 4em;
   font-size: 24px;
   color: #000000;
 }
 
 /* Cards Styles */
 .card {
-  transition: all 0.3s ease;
+  margin-bottom: 1rem;
   border: none;
   background-color: transparent;
 }
 
 .card-body {
-  background-color: transparent;
-  border: none;
-  color: #333;
-  display: flex;
   text-align: center;
-  flex-direction: column;
+}
+
+/* Remove the gross ass
+focus outline from buttons + links */
+.btn:focus,
+.card a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn:focus,
+.card a:focus,
+.close:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5); /* A softer white outline */
+}
+
+/* Remove focus outline and box shadow from all focusable elements */
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Specifically target the close button in the modal header */
+.modal-header .close:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Update the button's :active state */
+.btn:active,
+.btn.active {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
+/* Update the button's :focus state */
+.btn:focus,
+.btn.focus {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
+/* For the modal close button if it still shows an outline or box shadow */
+.modal-header .close:active,
+.modal-header .close.focus,
+.modal-header .close:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+button.btn-info,
+.project-links button.btn-info:hover,
+.project-links button.btn-info:focus,
+.project-links button.btn-info:active {
+  color: rgb(167, 167, 167);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* NAW BOOTSTRAP */
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: rgb(60, 60, 60) !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+/* Link Styles */
+
+/* Center project links under the card title */
+
+.project-links {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-
-
-/* Button Links */
-.btn-link {
-  background: none;
-  border: none;
+.project-links a,
+.project-links button {
+  margin-right: 0.5rem;
   color: #000;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-  display: inline-flex; /* Aligns icon and text inline */
-  align-items: center; /* Centers items vertically */
-  gap: 8px; /* Adds space between icon and text */
-}
-
-/* Hover effect for the entire link container */
-.info-repo-link:hover .btn-link,
-.info-repo-link:hover .btn-link .fa,
-.info-repo-link:hover .btn-link .link-text,
-.info-repo-link a:hover .fa,
-.info-repo-link a:hover .link-text {
-  color: rgb(167, 167, 167); /* Hover effect color */
+  text-decoration: none;
   transition: color 0.3s ease-in-out;
+  font-size: 11px;
 }
 
-/* Card Titles and Text */
-.card-title,
-.cardtext {
-  margin: 0 auto;
+.project-links a:hover,
+.project-links button:hover {
+  color: rgb(167, 167, 167);
+}
+
+/* Card Titles */
+.card-title a {
+  font-size: 12px;
+  font-weight: 600;
+  color: #000;
   text-decoration: none;
 }
 
-.card-title {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  padding-top: 0.95em;
-}
-
-.card-text {
-  font-size: 14px;
-  font-weight: 400;
-}
-
-/* Image Container */
-.projectDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-
-/* Link Styles */
-.projectDiv a {
-  display: block;
-  width: 30%;
-  text-align: center;
-}
-
-.imageResize {
-  max-height: 15%;
-}
-.btn-close{
-  color: black;
+.card-title a:hover {
+  color: rgb(167, 167, 167);
 }
 
 /* Image Styles */
-.projectImage{
-  max-width: 100%;
-  height: auto;
-  /* Promote to its own composite layer, might engage GPU acceleration IT DOES */
-  transform: translateZ(0);
-   /* Apply transition to both the scaling and the layer promotion */
-  transition: transform 3s ease-out;
-  /* Changed to JUST ease-out for a smoother end */
+.cardImg {
+  width: auto;
+  height: 100%;
+  display: block; /* Makes it a block-level element */
+  margin: auto; /* Centers the image */
+  max-width: 100%; /* Ensures image responsiveness */
+  height: auto; /* Maintains aspect ratio */
+  transition: transform 0.3s ease-out;
+  transition-duration: 4s; /* vendorless fallback */
+  -o-transition-duration: 4s; /* opera */
+  -ms-transition-duration: 4s; /* IE 10 */
+  -moz-transition-duration: 4s; /* Firefox */
+  -webkit-duration: 4s; /*safari and chrome */
 }
 
-/* Hover Effects for images */
-.projectImage:hover {
-  transition-duration: 3s;
-  /* Apply the scale transform along with translateZ(0) for smoothness */
-  transform: scale(1.1) translateZ(0);
+.cardImg:hover {
+  transform: scale(1.05);
+  transition-duration: 4s;
+  transition-delay: 0.2s;
 }
-
-/* Text and Icon Links */
-a.text-black {
-  color: #000;
-  text-decoration: none;
-}
-
-a.text-black:hover,
-a.hover-effect:hover {
-  color: rgb(167, 167, 167); /* Hover effect color */
-  transition: color 2s ease-in-out;
-  
-}
-
-/* Info and Repo Link Containers */
-.info-repo-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.info-repo-link a {
-  color: #000; /* Default color */
-  text-decoration: none; /* No underline */
-}
-
-.info-repo-link a:hover .fa,
-.info-repo-link a:hover span {
-  color: rgb(167, 167, 167); /* Hover effect color */
-}
-
-.info-repo-link a:hover {
-  color: rgb(167, 167, 167); /* Ensures that the text also receives hover color */
-  transition: color 0.3s ease-in-out;
-}
-
-.padding-top {
-  padding-top: 1.5em;
-}
-

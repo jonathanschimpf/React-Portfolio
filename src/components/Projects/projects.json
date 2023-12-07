@@ -1,19 +1,20 @@
 [
-  {
-    "id": 1,
-    "title": "Meta Front-End Developer Certificate Capstone Project",
-    "projectlink": "https://jonathanschimpf.github.io/front-end-capstone-meta-x-coursera/",
-    "repolink": "https://github.com/jonathanschimpf/front-end-capstone-meta-x-coursera",
-    "description": "Little Lemon | Authentic Mediterranean Cuisine in Chicago",
-    "image": "images/Little-Lemon-Logo-Black.png"
-  },
 
   {
-    "id": 2,
-    "title": "From Tumblr To A React App",
+    "id": 1,
+    "title": "From A Tumblr Photo Journal To A React App",
     "projectlink": "https://jonathanschimpf.com",
     "repolink": "https://github.com/jonathanschimpf/Tumblr-To-React",
-    "description": "My Tumblr account, that has served as a personal photo journal for me since 2010, entirely exported and rebuilt in a React setting. Python made extracting the captions possible. Infinite scroll to avoid pagination when traveling back in time.",
-    "image": "images/FromTumblrToReact-Project.png"
+    "description": "Data is stored in a .JSON file which has an array of objects that represent each image+caption. The data for each image+caption is dynamically generated to a single card component. After casually using Tumblr specifically to post my personal photographs and nothing else since 2010, I got to thinking: \"Why not make this a React App project?\".. So I exported all of my Photo Journal media and rebuilt it in a React setting. Writing Python scripts made extracting the captions possible. I used Infinite scroll to avoid pagination when a user is traveling back in time. I have written logic for a few pairs of  \"Header\" and \"Footer\" Navigation icons, to make it considerably easier and much more enjoyable for anyone navigating around an old Photo Blog.",
+    "image": "FromTumblrToReact-Project-Final.png"
+  },
+  {
+    "id": 2,
+    "title": "Meta Front-End Certificate Capstone Project",
+    "projectlink": "https://jonathanschimpf.github.io/front-end-capstone-meta-x-coursera/",
+    "repolink": "https://github.com/jonathanschimpf/front-end-capstone-meta-x-coursera",
+    "description": " \"Little Lemon | Authentic Mediterranean Cuisine in Chicago.\" This was the final project of the 9 course Meta / Coursera Front-End certificate program that I worked through from April - September, 2023. This project is for a faux restaraunt that you are to build a reservation form for. The form confirms if you've entered the basic criteria for making a reservation, and only then the reserve button becomes active. An API endpoint could be applied to send confirmation that the reservation request was received if this was actually a real establishment and not just a project for a Front-End Coursera program.",
+    "image": "Little-Lemon-Logo-Black.png"
   }
+
 ]

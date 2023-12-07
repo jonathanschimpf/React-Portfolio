@@ -8,22 +8,20 @@ p {
   color: grey;
 }
 
+
 .helloSize {
   font-size: 48px;
   color: rgb(189, 0, 0);
 }
 
-.helloDoubleArrowPaddingBottom {
-  padding-bottom: 70px;
-}
-
-.centerHelloJumbotron {
+.helloContainer {
   display: flex;
   align-content: center;
+  padding-bottom: 5em;
 }
 
 .helloMargins {
-  margin: auto;
+  margin-top: 21.5em;
   vertical-align: middle;
 }
 

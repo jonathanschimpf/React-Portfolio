@@ -9,7 +9,7 @@ import {
   faThreads,
 } from "@fortawesome/free-brands-svg-icons";
 import { faCameraRetro } from '@fortawesome/free-solid-svg-icons';
-import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
+// import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
 import { Tooltip, OverlayTrigger } from "react-bootstrap";
 
 function FooterComp() {
@@ -21,9 +21,9 @@ function FooterComp() {
              <OverlayTrigger
               placement="bottom"
               delay={{ show: 60, hide: 60 }}
-              overlay={<Tooltip className="tooltip-inner-footer">Photo</Tooltip>}
+              overlay={<Tooltip className="tooltipFooter">Photo</Tooltip>}
             >
-            <div className="m-3 divfooter wow animate__animated animate__fadeIn animate__slow">
+            <div className="m-3 divfooter wow animate__animated animate__fadeInRight animate__slower">
               <a
                 href="https://jonathanschimpf.com"
                 rel="noreferrer"
@@ -40,9 +40,9 @@ function FooterComp() {
           <OverlayTrigger
               placement="bottom"
               delay={{ show: 60, hide: 60 }}
-              overlay={<Tooltip className="tooltip-inner-footer">LinkedIn</Tooltip>}
+              overlay={<Tooltip className="tooltipFooter">LinkedIn</Tooltip>}
             >
-            <div className="m-3 divfooter wow animate__animated animate__fadeIn animate__slow">
+            <div className="m-3 divfooter wow animate__animated animate__fadeInRight animate__slower">
               <a
                 href="https://www.linkedin.com/in/jonathan-schimpf/"
                 rel="noreferrer"
@@ -59,9 +59,9 @@ function FooterComp() {
           <OverlayTrigger
               placement="bottom"
               delay={{ show: 60, hide: 60 }}
-              overlay={<Tooltip className="tooltip-inner-footer">GitHub</Tooltip>}
+              overlay={<Tooltip className="tooltipFooter">GitHub</Tooltip>}
             >
-            <div className="m-3 divfooter wow animate__animated animate__fadeIn animate__slow">
+            <div className="m-3 divfooter wow animate__animated animate__fadeInRight animate__slower">
               <a
                 href="https://github.com/jonathanschimpf"
                 rel="noreferrer"
@@ -78,9 +78,9 @@ function FooterComp() {
               <OverlayTrigger
               placement="bottom"
               delay={{ show: 60, hide: 60 }}
-              overlay={<Tooltip className="tooltip-inner-footer">Instagram</Tooltip>}
+              overlay={<Tooltip className="tooltipFooter">Instagram</Tooltip>}
             >
-            <div className="m-3 divfooter wow animate__animated animate__fadeIn animate__slow">
+            <div className="m-3 divfooter wow animate__animated animate__fadeInRight animate__slower">
               <a
                 href="https://www.instagram.com/schimpfstagram/"
                 rel="noreferrer"
@@ -97,9 +97,9 @@ function FooterComp() {
           <OverlayTrigger
               placement="bottom"
               delay={{ show: 60, hide: 60 }}
-              overlay={<Tooltip className="tooltip-inner-footer">Threads</Tooltip>}
+              overlay={<Tooltip className="tooltipFooter">Threads</Tooltip>}
             >
-            <div className="m-3 divfooter wow animate__animated animate__fadeIn animate__slow">
+            <div className="m-3 divfooter wow animate__animated animate__fadeInRight animate__slower">
               <a
                 href="https://www.threads.net/@schimpfstagram"
                 rel="noreferrer"
@@ -113,10 +113,10 @@ function FooterComp() {
             </OverlayTrigger>
           </Col>
           <Col className="icon-col">
-          <OverlayTrigger
+          {/* <OverlayTrigger
               placement="bottom"
               delay={{ show: 60, hide: 60 }}
-              overlay={<Tooltip className="tooltip-inner-footer">Resume</Tooltip>}
+              overlay={<Tooltip className="tooltipFooter">Resume</Tooltip>}
             >
             <div className="m-3 divfooter wow animate__animated animate__fadeIn animate__slow">
               <a
@@ -129,7 +129,7 @@ function FooterComp() {
                 <FontAwesomeIcon icon={faFilePdf} size="2x" />
               </a>
             </div>
-            </OverlayTrigger>
+            </OverlayTrigger> */}
           </Col>
         </Row>
       </Container>

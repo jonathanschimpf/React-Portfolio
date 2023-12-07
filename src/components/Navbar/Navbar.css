@@ -16,6 +16,10 @@ nav {
   display: flex;
   justify-content: flex-end;
 }
+/* mobile or narrow viewports  */
+.navbar-collapse .nav-link {
+  padding-right: 0.75rem; 
+}
 
 .nav-link,
 .pointer-link {

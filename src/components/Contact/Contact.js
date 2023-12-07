@@ -7,14 +7,17 @@ import { Container, Col, Row, Tooltip, OverlayTrigger } from "react-bootstrap";
 function ContactComp() {
   return (
     <>
-      <br id="contact" />
-      <div className="contactSpacing"></div>
+    <div>
+      <div>
+      <div className="contactSpacing">
       <Container className="centeredContainer contactTitleWidth">
         <Row>
           <Col sm={12}>
-            <h1 className="fontSizeAdjust wow animate__animated animate__fadeInDown animate_slower">
-              CONNECT WITH ME + CONTACT ME BELOW.
+            <div id="contact" className="wow animate__animated animate__fadeInDown animate_slower">
+            <h1 className="fontSizeAdjust connectContactPadding wow animate__animated animate__fadeInDown animate_slower">
+              CONNECT WITH ME + CONTACT ME BELOW
             </h1>
+            </div>
           </Col>
         </Row>
         <Row className="iconRow">
@@ -22,30 +25,32 @@ function ContactComp() {
             <OverlayTrigger
               placement="top"
               delay={{ show: 60, hide: 60 }}
-              overlay={<Tooltip>jonathan @ jonathanschimpf.com</Tooltip>}
+              overlay={<Tooltip className="tooltipContactFooter">jonathan @ jonathanschimpf.com</Tooltip>}
             >
+              <div className="divContactIcons wow animate__animated animate__fadeInLeft animate__slower">
               <a
-                className="responsiveEmail blackoutLink wow animate__animated animate__fadeIn animate__slower"
+                className="responsiveIcon blackoutLink wow animate__animated animate__slower animate__fadeInLeft"
                 href="mailto:jonathan@jonathanschimpf.com"
               >
                 <FontAwesomeIcon
                   icon={faEnvelope}
                   size="2x"
-                  className="fa fa-envelope responsiveEmail"
+                  className="fa fa-envelope animate__slower responsiveEmail"
                 />
               </a>
+              </div>
             </OverlayTrigger>
           </Col>
           <Col sm={6}>
             <OverlayTrigger
               placement="top"
               delay={{ show: 60, hide: 60 }}
-              overlay={<Tooltip>570.449.0320</Tooltip>}
+              overlay={<Tooltip className="tooltipContactFooter">570.449.0320</Tooltip>}
             >
-              <div className="divIcons">
+              <div className="divContactIcons wow animate__animated animate__fadeInLeft animate__slower">
                 <a
                   href="tel:570.449.0320"
-                  className="responsivePhone blackoutLink wow animate__animated animate__fadeIn animate__slower"
+                  className="responsiveIcon blackoutLink wow animate__animatedanimate__slower  animate__fadeInLeft animate__slower"
                 >
                   <FontAwesomeIcon
                     icon={faPhone}
@@ -58,7 +63,9 @@ function ContactComp() {
           </Col>
         </Row>
       </Container>
-      <div className="contactSpacing"></div>
+      </div>
+      </div>
+      </div>
     </>
   );
 }

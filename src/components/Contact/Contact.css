@@ -24,43 +24,86 @@ a:hover {
 a {
     color: black;
 }
+.contactSpacing {
+  padding-top: 10em;
+  padding-bottom: 1em;
+}
+
+.connectContactPadding {
+  padding-bottom: 4.5em;
+  padding-top: 5em;
+}
 
 .centeredContainer {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   text-align: center;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 10em;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-wrap: wrap; /* Allow items to wrap on small screens */
 }
 
 .iconRow {
-  margin-top: 100px;   
+  margin-top: 5em;   
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
+  gap: 1.5em;
 }
 
 .contactTitleWidth {
   max-width: 540px;
 }
 
-.tooltip-hack.tooltip-inner {
-  color: rgb(0, 0, 0) !important;
-  background-color: white !important;
+
+.tooltipContactFooter .tooltip-inner {
+  background-color: transparent !important; 
+  color:rgb(150, 150, 150) !important;
+  font-weight: bold;
 }
 
-/* WORK IT OUT
 
-.fa-2x
+
+.tooltipContactFooter.tooltip .arrow::before,
+.tooltipContactFooter .tooltip .arrow::after {
+  content: none !important; 
+}
+
+
+.tooltipContactFooter .tooltip .arrow::before {
+  border-bottom-color: transparent !important; 
+}
+
+.tooltip .arrow::before, .tooltip .arrow::after {
+  display: none !important;
+}
+
+.tooltip .arrow::before {
+  border-top-color: transparent !important; 
+}
+ /* TOOLTIP ARROW DELETE */
+.tooltipFooter .tooltip-arrow,
+.tooltipFooter .arrow {
+  display: none !important;
+}
+
+.tooltipContactFooter .tooltip-arrow,
+.tooltipContactFooter .arrow {
+  display: none !important;
+}
+
+
+/* RESPONSIVE SOCIALS AND RESUME */
 
 @media (max-width: 1050px) {
   .responsiveIcon {
     margin: -2.5px;
-    font-size: 98.25%;
+
   }
-  .divIcons{
+  .divfooter {
     padding: -1.5px;
   }
 }
@@ -68,70 +111,18 @@ a {
 
 @media (max-width: 950px) {
   .responsiveIcon {
-    margin: -5px;
-    font-size: 97.5%;
-  }
-  .divIcons {
-    padding: -2.5px;
-  }
-}
-
-@media (max-width: 850px) {
-  .responsiveIcon {
-    margin: -10px;
-    font-size: 95%;
-  }
-  .divIcons{
-    padding: -4px;
-  }
-}
-
-@media (max-width: 750px) {
-  .responsiveIcon {
-    margin: -15px;
-    font-size: 92.5%;
-  }
-  .divIcons {
-    padding: -6px;
+    /* Smaller font-size as per your design */
+    font-size: 90%;
+    /* Adjust padding and margin if necessary */
+    padding: 0.5em;
   }
 }
 
 @media (max-width: 650px) {
   .responsiveIcon {
-    margin: -20px;
-    font-size: 90%;
-  }
-  .divIcons {
-    padding: -8px;
-  }
-}
-
-@media (max-width: 550px) {
-  .responsiveIcon {
-    margin: -22.5px;
-    font-size: 88.5%;
-  }
-  .divIcons {
-    padding: -10px;
+    /* Even smaller font-size for very small devices */
+    font-size: 80%;
+    /* Adjust padding and margin to keep the layout tidy */
+    padding: 0.25em;
   }
 }
-
-@media (max-width: 450px) {
-  .responsiveIcon {
-    margin: -25.5px;
-    font-size: 85%;
-  }
-  .divIcons {
-    padding: -11.5px;
-  }
-}
-
-@media (max-width: 350px) {
-  .responsiveIcon {
-    margin: -30px;
-    font-size: 82.5%;
-  }
-  .divIcons {
-    padding: -15px;
-  }
-} */
