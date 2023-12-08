@@ -1,23 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a405e7bb.chunk.css",
-    "main.js": "/static/js/main.0fde3cb8.chunk.js",
-    "main.js.map": "/static/js/main.0fde3cb8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0a30a524.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0a30a524.js.map",
-    "static/css/2.e5750c50.chunk.css": "/static/css/2.e5750c50.chunk.css",
-    "static/js/2.1b2f7685.chunk.js": "/static/js/2.1b2f7685.chunk.js",
-    "static/js/2.1b2f7685.chunk.js.map": "/static/js/2.1b2f7685.chunk.js.map",
+    "main.css": "/static/css/main.8b2fcd16.css",
+    "main.js": "/static/js/main.33e8b064.js",
+    "static/js/787.5546d52b.chunk.js": "/static/js/787.5546d52b.chunk.js",
+    "static/media/Little-Lemon-Logo-Black.png": "/static/media/Little-Lemon-Logo-Black.1ea12fee9a02a2ad0f11.png",
+    "static/media/FromTumblrToReact-Project-Final.png": "/static/media/FromTumblrToReact-Project-Final.bdc315da7ebca014705b.png",
     "index.html": "/index.html",
-    "static/css/2.e5750c50.chunk.css.map": "/static/css/2.e5750c50.chunk.css.map",
-    "static/css/main.a405e7bb.chunk.css.map": "/static/css/main.a405e7bb.chunk.css.map",
-    "static/js/2.1b2f7685.chunk.js.LICENSE.txt": "/static/js/2.1b2f7685.chunk.js.LICENSE.txt"
+    "main.8b2fcd16.css.map": "/static/css/main.8b2fcd16.css.map",
+    "main.33e8b064.js.map": "/static/js/main.33e8b064.js.map",
+    "787.5546d52b.chunk.js.map": "/static/js/787.5546d52b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a30a524.js",
-    "static/css/2.e5750c50.chunk.css",
-    "static/js/2.1b2f7685.chunk.js",
-    "static/css/main.a405e7bb.chunk.css",
-    "static/js/main.0fde3cb8.chunk.js"
+    "static/css/main.8b2fcd16.css",
+    "static/js/main.33e8b064.js"
   ]
 }
