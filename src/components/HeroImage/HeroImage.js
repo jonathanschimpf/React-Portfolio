@@ -1,12 +1,22 @@
-import React from 'react';
-import './HeroImage.css';
+import React from "react";
+import "./HeroImage.css";
+
+
 
 function HeroImageComp() {
-  return (
-    <div className='parallax-container'>
-      <div className='parallax-back'></div>
-    </div>
-  );
+
+    return (
+
+        <>
+
+            <div className="heroIMAGE">
+                <img className="heroHEIGHT" />
+            </div>
+
+        </>
+
+
+    );
 }
 
 export default HeroImageComp;
