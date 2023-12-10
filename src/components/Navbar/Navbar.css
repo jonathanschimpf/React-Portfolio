@@ -20,10 +20,8 @@ nav {
 .navbar-collapse .nav-link {
   padding-right: 0.75rem; 
 }
-
-.nav-link,
-.pointer-link {
-  cursor: pointer;
+.navbar-dark .navbar-nav .nav-link {
+  cursor: pointer; 
 }
 
 .collapse.navbar-collapse {
@@ -37,16 +35,13 @@ nav {
   display: flex;
   justify-content: flex-start;
   margin-left: 0 !important;
+  cursor: pointer !important;
 }
 
 #brandOverride {
   margin-left: 0 !important;
 }
 
-
-/* justify -content DOES NOT WORK above and below */
-
-/* flex-start and flex-end DO NOT WORK ^ */
 
 .greyFont {
   color: rgb(167, 167, 167);
