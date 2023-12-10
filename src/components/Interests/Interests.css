@@ -35,15 +35,30 @@ h2 {
   min-height: auto;
   width: 100%;
   height: 100%;
-  padding-top: 2em;
-  padding-bottom: 10em;
+  padding-top: 15vh !important;
+  padding-bottom: 40vh !important;
   background: black;
 }
 
 .deviContainer {
-  margin-bottom: 15em;
-  max-width: 960px;
+  max-width: 800px;
 }
+
+.interestsTitle {
+  margin-bottom: 3em;
+  font-size: 24px;
+}
+
+.vertical-center {
+  vertical-align: middle ;
+  align-items: center;
+}
+
+.tooltip-inner {
+  color: rgb(189, 0, 0)!important;
+  font-weight: bold !important;
+}
+
 
 /* media queries */
 
@@ -80,20 +95,4 @@ h2 {
   .deviContainer.container {
     max-width: 246px;
   }
-}
-
-.interestsTitle {
-  margin-top: 5.5em;
-  margin-bottom: 3em;
-  font-size: 24px;
-}
-
-.vertical-center {
-  vertical-align: middle ;
-  align-items: center;
-}
-
-.tooltip-inner {
-  color: rgb(189, 0, 0)!important;
-  font-weight: bold !important;
 }

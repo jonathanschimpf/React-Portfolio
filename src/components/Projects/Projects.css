@@ -1,19 +1,24 @@
+/* The WHOLE component damnit */
+
+.projectsEverything {
+ padding-top: 45vh;
+  padding-bottom: 40vh;
+  margin-bottom: 5vh !important
+
+}
+
 /* Main Container */
 .projectsContainer {
   margin: auto;
-  padding-top: 2vh;
-  margin-bottom: 45vh;
+  padding-top: 5vh;
 }
 
 /* Project Title Styling */
 .projectsTitleContainer {
-  padding-top: 5rem;
-  padding-bottom: 1rem;
+  padding-top: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 12em;
-  margin-bottom: 4em;
   font-size: 24px;
   color: #000000;
 }

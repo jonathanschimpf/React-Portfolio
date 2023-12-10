@@ -21,8 +21,8 @@ function ProjectsComponent() {
 
     return (
         <>
-        <div id="projects">
-            <Container className="projectsTitleContainer">
+        <div className="projectsEverything">
+            <Container id="projects" className="projectsTitleContainer">
                 <h1 className="wow animate__animated animate__zoomIn animate_slower">SOME RECENT PROJECTS</h1>
             </Container>
 

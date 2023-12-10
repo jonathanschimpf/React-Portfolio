@@ -25,13 +25,13 @@ a {
     color: black;
 }
 .contactSpacing {
-  padding-top: 10em;
+  padding-top: 2.5em;
   padding-bottom: 1em;
 }
 
 .connectContactPadding {
-  padding-bottom: 4.5em;
-  padding-top: 5em;
+  padding-bottom: 15vh;
+  padding-top: 15vh;
 }
 
 .centeredContainer {
@@ -39,7 +39,8 @@ a {
   flex-direction: column;
   text-align: center;
   width: 100%;
-  margin-top: 10em;
+  padding-top: 10vh;
+  margin-top: 25vh;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   flex-wrap: wrap; /* Allow items to wrap on small screens */

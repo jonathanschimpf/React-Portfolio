@@ -98,48 +98,6 @@ function InterestsComponent() {
             <OverlayTrigger
               placement="top"
               delay={{ show: 60, hide: 60 }}
-              overlay={<Tooltip>Adobe Photoshop</Tooltip>}
-            >
-              <div className="m-3 p-3">
-                <i
-                  className="wow animate__animated animate__fadeIn animate__slower devicon-photoshop-plain fa-4x interestsIcon"
-                  aria-hidden="true"
-                ></i>
-                <br />
-              </div>
-            </OverlayTrigger>
-
-            <OverlayTrigger
-              placement="top"
-              delay={{ show: 60, hide: 60 }}
-              overlay={<Tooltip>Adobe Premiere Pro</Tooltip>}
-            >
-              <div className="m-3 p-3">
-                <i
-                  className="wow animate__animated animate__fadeIn animate__slower devicon-premierepro-plain  fa-4x interestsIcon"
-                  aria-hidden="true"
-                ></i>
-                <br />
-              </div>
-            </OverlayTrigger>
-
-            <OverlayTrigger
-              placement="top"
-              delay={{ show: 60, hide: 60 }}
-              overlay={<Tooltip>Bootstrap</Tooltip>}
-            >
-              <div className="m-3 p-3">
-                <i
-                  className="wow animate__animated animate__fadeIn animate__slower fab fa-bootstrap fa-4x interestsIcon"
-                  aria-hidden="true"
-                ></i>
-                <br />
-              </div>
-            </OverlayTrigger>
-
-            <OverlayTrigger
-              placement="top"
-              delay={{ show: 60, hide: 60 }}
               overlay={<Tooltip>Visual Studio Code</Tooltip>}
             >
               <div className="m-3 p-3">
@@ -178,6 +136,49 @@ function InterestsComponent() {
                 <br />
               </div>
             </OverlayTrigger>
+
+            <OverlayTrigger
+              placement="top"
+              delay={{ show: 60, hide: 60 }}
+              overlay={<Tooltip>Bootstrap</Tooltip>}
+            >
+              <div className="m-3 p-3">
+                <i
+                  className="wow animate__animated animate__fadeIn animate__slower fab fa-bootstrap fa-4x interestsIcon"
+                  aria-hidden="true"
+                ></i>
+                <br />
+              </div>
+            </OverlayTrigger>
+
+            <OverlayTrigger
+              placement="top"
+              delay={{ show: 60, hide: 60 }}
+              overlay={<Tooltip>Adobe Photoshop</Tooltip>}
+            >
+              <div className="m-3 p-3">
+                <i
+                  className="wow animate__animated animate__fadeIn animate__slower devicon-photoshop-plain fa-4x interestsIcon"
+                  aria-hidden="true"
+                ></i>
+                <br />
+              </div>
+            </OverlayTrigger>
+
+            <OverlayTrigger
+              placement="top"
+              delay={{ show: 60, hide: 60 }}
+              overlay={<Tooltip>Adobe Premiere Pro</Tooltip>}
+            >
+              <div className="m-3 p-3">
+                <i
+                  className="wow animate__animated animate__fadeIn animate__slower devicon-premierepro-plain  fa-4x interestsIcon"
+                  aria-hidden="true"
+                ></i>
+                <br />
+              </div>
+            </OverlayTrigger>
+
           </Row>
         </Container>
       </div>
