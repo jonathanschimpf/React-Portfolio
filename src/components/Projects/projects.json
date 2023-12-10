@@ -14,7 +14,7 @@
     "projectlink": "https://jonathanschimpf.github.io/front-end-capstone-meta-x-coursera/",
     "repolink": "https://github.com/jonathanschimpf/front-end-capstone-meta-x-coursera",
     "description": " \"Little Lemon | Authentic Mediterranean Cuisine in Chicago.\" This was the final project of the 9 course Meta / Coursera Front-End certificate program that I worked through from April - September, 2023. This project is for a faux restaraunt that you are to build a reservation form for. The form confirms if you've entered the basic criteria for making a reservation, and only then the reserve button becomes active. An API endpoint could be applied to send confirmation that the reservation request was received if this was actually a real establishment and not just a project for a Front-End Coursera program.",
-    "image": "Little-Lemon-Logo-Black.png"
+    "image": "Little-Lemon-Logo-Black_Final.png"
   }
 
 ]
