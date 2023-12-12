@@ -1,13 +1,13 @@
 /* The WHOLE component damnit */
 
 .projectsEverything {
-  padding-top: 65vh;
-  padding-bottom: 70vh;
+  margin-top: 20vh;
+ margin-bottom: 35vh;
 }
 
 /* Main Container */
 .projectsContainer {
-  padding-top: 5vh;
+  padding-top: 10vh;
 }
 
 /* Project Title Styling */

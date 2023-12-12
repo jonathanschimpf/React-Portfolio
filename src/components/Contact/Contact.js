@@ -14,10 +14,11 @@ function ContactComp() {
         <Row>
           <Col sm={12}>
             <div id="contact" className="wow animate__animated animate__fadeInDown animate_slower">
-            <h1 className="fontSizeAdjust connectContactPadding wow animate__animated animate__fadeInDown animate_slower">
+            <h1 className="fontSizeAdjust connectContactPadding wow animate__animated animate__fadeInDown animate_slower"><div className="space wow animate__animated animate_slower animate__delay-1s animate__fadeInLeftBig"><span class="wave">👋🏻</span></div><br/>
               CONNECT WITH ME + CONTACT ME BELOW
             </h1>
             </div>
+
           </Col>
         </Row>
         <Row className="iconRow">
@@ -27,7 +28,7 @@ function ContactComp() {
               delay={{ show: 60, hide: 60 }}
               overlay={<Tooltip className="tooltipContactFooter">jonathan @ jonathanschimpf.com</Tooltip>}
             >
-              <div className="divContactIcons wow animate__animated animate__fadeInLeft animate__slower">
+              <div className="divContactIcons wow animate__animated animate__fadeInLeft">
               <a
                 className="responsiveIcon blackoutLink wow animate__animated animate__slower animate__fadeInLeft"
                 href="mailto:jonathan@jonathanschimpf.com"
@@ -35,7 +36,7 @@ function ContactComp() {
                 <FontAwesomeIcon
                   icon={faEnvelope}
                   size="2x"
-                  className="fa fa-envelope animate__slower responsiveEmail"
+                  className="fa fa-envelope responsiveEmail"
                 />
               </a>
               </div>
@@ -47,10 +48,10 @@ function ContactComp() {
               delay={{ show: 60, hide: 60 }}
               overlay={<Tooltip className="tooltipContactFooter">570.449.0320</Tooltip>}
             >
-              <div className="divContactIcons wow animate__animated animate__fadeInLeft animate__slower">
+              <div className="divContactIcons wow animate__animated animate__fadeInLeft">
                 <a
                   href="tel:570.449.0320"
-                  className="responsiveIcon blackoutLink wow animate__animatedanimate__slower  animate__fadeInLeft animate__slower"
+                  className="responsiveIcon blackoutLink wow animate__animated  animate__fadeInLeft"
                 >
                   <FontAwesomeIcon
                     icon={faPhone}
