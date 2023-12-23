@@ -13,7 +13,7 @@
 
 <p>&nbsp;<p>
 
-[React.js] JONATHANSCHIMPF.DEV is my personal web development portfolio that I created with the React.js library. This application was built using component-driven development, and dynamic rendering was utilized to generate similar items within the site.
+[React.js] JONATHANSCHIMPF.DEV is my personal front-end web development page that I created with the React.js library. This application was built using component-driven development, and dynamic rendering was utilized to generate recent projects that I've made.
 
 <p>&nbsp;<p>
 
@@ -64,6 +64,19 @@
 
 
 <p>&nbsp;<p>
+
+
+`Animate.css` =>‏‏‎ ‎ ‏‏‎ ‎[Just-add-water CSS animations](https://animate.style/)
+
+
+<p>&nbsp;<p>
+
+`Wow.js` =>‏‏‎ ‎ ‏‏‎ ‎[Reveal Animations When You Scroll. Very Animate.css Friend :-)](https://wowjs.uk/)
+
+
+<p>&nbsp;<p>
+
+
 
 
 ---
