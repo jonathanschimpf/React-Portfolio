@@ -1,7 +1,6 @@
-
-
+/* MESSAGE */
 .centerHeader {
-  margin-top:48.8px;
+  margin-top: 2.5px;
 }
 
 .containerHeader {
@@ -26,6 +25,7 @@
 .blacked {
   color: black;
   font-weight: 700;
+  padding-bottom: 40px;
 }
 
 .greyed {
@@ -33,21 +33,16 @@
 }
 
 /* MEDIA QUERIES FOR SMALLER SCREEN WIDTHS */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
   h1.responsiveH1Font {
-    font-size: 12vw;
+    font-size: 8vw;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
   h2.responsiveH2Font {
-    font-size: 12vw;
+    font-size: 8vw;
   }
 }
 
-@media screen and (max-width: 400px) {
-  i.fa-angle-double-down::before {
-    font-size: 9vw;
-  }
-}
 
