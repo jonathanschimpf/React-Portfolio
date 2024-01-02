@@ -56,7 +56,7 @@
     background-attachment: scroll;
   }
 
-  .heroHEIGHT:before {y
+  .heroHEIGHT:before {
     z-index: 0;
     position: fixed;
     overflow: hidden;
