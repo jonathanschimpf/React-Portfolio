@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.104a6ac3.css",
+    "main.css": "/static/css/main.d4f101e8.css",
     "main.js": "/static/js/main.499ca49d.js",
     "static/js/787.5546d52b.chunk.js": "/static/js/787.5546d52b.chunk.js",
     "static/media/Little-Lemon-Logo-Black_Final.png": "/static/media/Little-Lemon-Logo-Black_Final.b8fd2eb77f866eaa3303.png",
     "static/media/FromTumblrToReact-Project-Final.png": "/static/media/FromTumblrToReact-Project-Final.bdc315da7ebca014705b.png",
     "index.html": "/index.html",
-    "main.104a6ac3.css.map": "/static/css/main.104a6ac3.css.map",
+    "main.d4f101e8.css.map": "/static/css/main.d4f101e8.css.map",
     "main.499ca49d.js.map": "/static/js/main.499ca49d.js.map",
     "787.5546d52b.chunk.js.map": "/static/js/787.5546d52b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.104a6ac3.css",
+    "static/css/main.d4f101e8.css",
     "static/js/main.499ca49d.js"
   ]
 }
