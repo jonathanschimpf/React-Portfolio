@@ -10,8 +10,7 @@
   background-attachment: fixed;
 }
 
-/* Remove parallax and apply background attachment
- scroll @ mobile devices at 768 pixels and below */
+/* Remove parallax for mobile devices */
 @media (max-width: 768px) {
   .heroIMAGE {
     background-attachment: scroll;
@@ -19,34 +18,19 @@
 }
 
 /* Specific styles for iPads */
-@media only screen 
-  and (min-device-width : 768px) 
-  and (max-device-width : 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .heroIMAGE {
-    /* Adjust background-size as necessary
-     could be 'contain' or specific dimensions */
-    background-size: contain; 
-
-    /* Optional: Adjust background 
-    position if needed */
-    background-position: top center; 
-
-    /* Fall back to a scroll attachment 
-    if fixed isn't working as expected */
-    background-attachment: scroll;
+    background-size: auto 100vh; /* Adjusts the background image to fill the height */
+    background-position: center center; /* Centers the image */
+    background-attachment: scroll; /* Disable the fixed attachment */
   }
 }
 
-/* This query is for devices with a height of
- 1024px which includes some iPads in landscape */
-@media only screen 
-  and (min-device-height : 1024px) 
-  and (max-device-height : 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+/* Adjustments for devices with a height of 1024px which includes some iPads in landscape */
+@media only screen and (min-device-height : 1024px) and (max-device-height : 1024px) {
   .heroIMAGE {
-    background-size: contain;
-    background-position: top center;
-    background-attachment: scroll;
+    background-size: auto 100vh; /* Adjusts the background image to fill the height */
+    background-position: center center; /* Centers the image */
+    background-attachment: scroll; /* Disable the fixed attachment */
   }
 }
