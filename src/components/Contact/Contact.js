@@ -14,7 +14,7 @@ function ContactComp() {
         <Row>
           <Col sm={12}>
             <div id="contact" className="wow animate__animated animate__fadeInDown animate_slower">
-            <h1 className="fontSizeAdjust connectContactPadding wow animate__animated animate__fadeInDown animate_slower"><div className="space wow animate__animated animate_slower animate__delay-1s animate__fadeInLeftBig"><span class="wave">👋🏻</span></div><br/>
+            <h1 className="fontSizeAdjust connectContactPadding wow animate__animated animate__fadeInDown animate_slower"><div className="space wow animate__animated animate_slower animate__delay-1s animate__fadeInLeftBig"><span className="wave">👋🏻</span></div><br/>
               CONNECT WITH ME + CONTACT ME BELOW
             </h1>
             </div>

@@ -137,12 +137,10 @@ button.btn-info,
 
 /* Image Styles */
 .cardImg {
-  width: auto;
-  height: 100%;
-  display: block; /* Makes it a block-level element */
-  margin: auto; /* Centers the image */
-  max-width: 100%; /* Ensures image responsiveness */
-  height: auto; /* Maintains aspect ratio */
+  display: block;
+  margin: auto;
+  max-width: 250px;
+  max-height: 250px;
   transition: transform 0.3s ease-out;
   transition-duration: 4s; /* vendorless fallback */
   -o-transition-duration: 4s; /* opera */
@@ -150,6 +148,7 @@ button.btn-info,
   -moz-transition-duration: 4s; /* Firefox */
   -webkit-duration: 4s; /*safari and chrome */
 }
+
 
 .cardImg:hover {
   transform: scale(1.05);

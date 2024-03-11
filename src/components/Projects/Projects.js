@@ -4,10 +4,13 @@ import { Container, Card, Modal, Button, Row, Col } from "react-bootstrap";
 import ProjectsData from "./Projects.json";
 import lemonLogo from "../../images/Little-Lemon-Logo-Black_Final.png";
 import tumblrToReactImage from "../../images/FromTumblrToReact-Project-Final.png";
+import naturalTravelInspirationProjectImage from "../../images/natural-travel-inspiration-projectImage.png";
+
 
 const imageMap = {
+  "natural-travel-inspiration-projectImage.png": naturalTravelInspirationProjectImage,
   "Little-Lemon-Logo-Black_Final.png": lemonLogo,
-  "FromTumblrToReact-Project-Final.png": tumblrToReactImage,
+  "FromTumblrToReact-Project-Final.png": tumblrToReactImage
 };
 
 function ProjectsComponent() {
