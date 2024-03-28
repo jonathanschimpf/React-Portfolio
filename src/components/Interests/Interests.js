@@ -81,6 +81,21 @@ function InterestsComponent() {
               </div>
             </OverlayTrigger>
 
+
+            <OverlayTrigger
+              placement="top"
+              delay={{ show: 60, hide: 60 }}
+              overlay={<Tooltip>Svelte</Tooltip>}
+            >
+              <div className="m-3 p-3">
+                <i
+                  className=" wow animate__animated animate__fadeIn animate__slower devicon-svelte-plain fa-4x interestsIcon"
+                  aria-hidden="true"
+                ></i>
+                <br />
+              </div>
+            </OverlayTrigger>
+
             <OverlayTrigger
               placement="top"
               delay={{ show: 60, hide: 60 }}
