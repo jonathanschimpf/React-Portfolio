@@ -18,7 +18,7 @@ function NavbarComp({ activeSection }) {
     };
 
     return (
-        <Navbar bg="black" variant="dark" expand="lg" fixed="top" expanded={expanded}>
+        <Navbar bg="black" variant="dark" expand="md" fixed="top" expanded={expanded}>
             <Navbar.Brand as={Link} to="header" id='brandOverride' spy={true} smooth={true} offset={-50} duration={500} delay={150} onClick={handleNavClick}>
                 <span className="pointer-link whiteFont">JONATHAN</span>
                 <span className="pointer-link greyFont"> SCHIMPF</span>
