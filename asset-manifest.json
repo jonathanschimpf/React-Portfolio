@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.63d0e2bc.css",
-    "main.js": "/static/js/main.13e86e63.js",
+    "main.js": "/static/js/main.28bdb7ff.js",
     "static/js/787.5546d52b.chunk.js": "/static/js/787.5546d52b.chunk.js",
     "static/media/natural-travel-inspiration-projectImage.png": "/static/media/natural-travel-inspiration-projectImage.aff3915e6ae0e88b351a.png",
+    "static/media/learn-nextjs.png": "/static/media/learn-nextjs.3f74882db06532a8ffeb.png",
     "static/media/Little-Lemon-Logo-Black_Final.png": "/static/media/Little-Lemon-Logo-Black_Final.b8fd2eb77f866eaa3303.png",
     "static/media/FromTumblrToReact-Project-Final.png": "/static/media/FromTumblrToReact-Project-Final.bdc315da7ebca014705b.png",
     "index.html": "/index.html",
     "main.63d0e2bc.css.map": "/static/css/main.63d0e2bc.css.map",
-    "main.13e86e63.js.map": "/static/js/main.13e86e63.js.map",
+    "main.28bdb7ff.js.map": "/static/js/main.28bdb7ff.js.map",
     "787.5546d52b.chunk.js.map": "/static/js/787.5546d52b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63d0e2bc.css",
-    "static/js/main.13e86e63.js"
+    "static/js/main.28bdb7ff.js"
   ]
 }
