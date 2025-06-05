@@ -1,28 +1,36 @@
 [
 
-  {
-    "id": 1,
-    "title": "Natural Travel Inspiration",
-    "projectlink": "https://natural-travel-inspiration.netlify.app/",
-    "repolink": "https://github.com/jonathanschimpf/natural-travel-inspiration",
-    "description": "Natural Travel Inspiration — We all live in cities or suburbs and we work from businesses, offices or work from home. Having manmade structures be the main setting where many of us spend most of our time, exploring natural features is good for us all. Given the beauty of nature and the shortness of our lifetimes, we should enjoy it while we can. I've lived and worked in + around a city for a long time, but in the evenings or on weekends I have always sought out opportunities to get out and enjoy what was here before I was born. Many of my travels have revolved around it. So I made this web project as a way to inspire myself and others. It pulls random images from the Unsplash© API that were created by photographers from all over the world that contribute their images to that platform. Each random image presented credits them below it if you're curious. This simple web project was the first time that I have built anything using SvelteKit (a powerful and flexible framework for building web applications) and I don't believe it will be the last. I really enjoy it.",
-    "image": "natural-travel-inspiration-projectImage.png"
-  },
-  {
-    "id": 2,
-    "title": "From A Tumblr Photo Journal To A React App",
-    "projectlink": "https://jonathanschimpf.com",
-    "repolink": "https://github.com/jonathanschimpf/Tumblr-To-React",
-    "description": "Data is stored in a .JSON file which has an array of objects that represent each image + caption. The data for each image + caption is dynamically generated to a single card component. After casually using Tumblr specifically to post my personal photographs and nothing else since 2010, I got to thinking recently: \"Why not make this a React App project?\".. So I exported all of my photo journal media and rebuilt it in a React setting. Writing Python scripts made extracting the captions possible. I used infinite scroll to avoid pagination when a user is traveling back in time. I have written logic for \"Header\" and \"Footer\" navigation icons, to make it considerably easier and much more enjoyable for anyone navigating around an old photo blog.",
-    "image": "FromTumblrToReact-Project-Final.png"
-  },
-  {
-    "id": 3,
-    "title": "Meta Front-End Certificate Capstone Project",
-    "projectlink": "https://jonathanschimpf.github.io/front-end-capstone-meta-x-coursera/",
-    "repolink": "https://github.com/jonathanschimpf/front-end-capstone-meta-x-coursera",
-    "description": " \"Little Lemon | Authentic Mediterranean Cuisine in Chicago.\" This was the final project of the 9 course Meta / Coursera Front-End certificate program that I worked through from April - September, 2023. This project is for a faux restaraunt that you are to build a reservation form for. The form confirms if you've entered the basic criteria for making a reservation, and only then the reserve button becomes active. An API endpoint could be applied to send confirmation that the reservation request was received if this was actually a real establishment and not just a project for a Front-End Coursera program.",
-    "image": "Little-Lemon-Logo-Black_Final.png"
-  }
-
-]
+    {
+        "id": 1,
+        "title": "Learn Next.js Course — Dashboard",
+        "projectlink": "https://learn-nextjs-dashboard-jonathanschimpf.vercel.app/",
+        "repolink": "https://github.com/jonathanschimpf/learn-nextjs-dashboard",
+        "description": "Learn Next.js — a course with 16 chapters aiming to take you from the React library to Next.js, the React framework for the web. Used by some of the world's largest companies, Next.js enables you to create high-quality web applications with the power of React components.",
+        "image": "learn-nextjs.png"
+      },
+    {
+      "id": 2,
+      "title": "Natural Travel Inspiration",
+      "projectlink": "https://natural-travel-inspiration.netlify.app/",
+      "repolink": "https://github.com/jonathanschimpf/natural-travel-inspiration",
+      "description": "Natural Travel Inspiration — We all live in cities or suburbs and we work from businesses, offices or work from home. Having manmade structures be the main setting where many of us spend most of our time, exploring natural features is good for us all. Given the beauty of nature and the shortness of our lifetimes, we should enjoy it while we can. I've lived and worked in + around a city for a long time, but in the evenings or on weekends I have always sought out opportunities to get out and enjoy what was here before I was born. Many of my travels have revolved around it. So I made this web project as a way to inspire myself and others. It pulls random images from the Unsplash© API that were created by photographers from all over the world that contribute their images to that platform. Each random image presented credits them below it if you're curious. This simple web project was the first time that I have built anything using SvelteKit (a powerful and flexible framework for building web applications) and I don't believe it will be the last. I really enjoy it.",
+      "image": "natural-travel-inspiration-projectImage.png"
+    },
+    {
+      "id": 3,
+      "title": "From A Tumblr Photo Journal To A React App",
+      "projectlink": "https://jonathanschimpf.com",
+      "repolink": "https://github.com/jonathanschimpf/Tumblr-To-React",
+      "description": "Data is stored in a .JSON file which has an array of objects that represent each image + caption. The data for each image + caption is dynamically generated to a single card component. After casually using Tumblr specifically to post my personal photographs and nothing else since 2010, I got to thinking recently: \"Why not make this a React App project?\".. So I exported all of my photo journal media and rebuilt it in a React setting. Writing Python scripts made extracting the captions possible. I used infinite scroll to avoid pagination when a user is traveling back in time. I have written logic for \"Header\" and \"Footer\" navigation icons, to make it considerably easier and much more enjoyable for anyone navigating around an old photo blog.",
+      "image": "FromTumblrToReact-Project-Final.png"
+    },
+    {
+      "id": 4,
+      "title": "Meta Front-End Certificate Capstone Project",
+      "projectlink": "https://jonathanschimpf.github.io/front-end-capstone-meta-x-coursera/",
+      "repolink": "https://github.com/jonathanschimpf/front-end-capstone-meta-x-coursera",
+      "description": " \"Little Lemon | Authentic Mediterranean Cuisine in Chicago.\" This was the final project of the 9 course Meta / Coursera Front-End certificate program that I worked through from April - September, 2023. This project is for a faux restaraunt that you are to build a reservation form for. The form confirms if you've entered the basic criteria for making a reservation, and only then the reserve button becomes active. An API endpoint could be applied to send confirmation that the reservation request was received if this was actually a real establishment and not just a project for a Front-End Coursera program.",
+      "image": "Little-Lemon-Logo-Black_Final.png"
+    }
+  
+  ]  

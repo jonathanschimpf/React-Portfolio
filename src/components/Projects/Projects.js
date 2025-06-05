@@ -5,13 +5,18 @@ import ProjectsData from "./Projects.json";
 import lemonLogo from "../../images/Little-Lemon-Logo-Black_Final.png";
 import tumblrToReactImage from "../../images/FromTumblrToReact-Project-Final.png";
 import naturalTravelInspirationProjectImage from "../../images/natural-travel-inspiration-projectImage.png";
+import learnNextjsCourseImage from "../../images/learn-nextjs.png";
 
 
 const imageMap = {
+  "learn-nextjs.png": learnNextjsCourseImage,
   "natural-travel-inspiration-projectImage.png": naturalTravelInspirationProjectImage,
-  "Little-Lemon-Logo-Black_Final.png": lemonLogo,
-  "FromTumblrToReact-Project-Final.png": tumblrToReactImage
+  "FromTumblrToReact-Project-Final.png": tumblrToReactImage,
+  "Little-Lemon-Logo-Black_Final.png": lemonLogo
 };
+
+
+
 
 function ProjectsComponent() {
   const [modalShow, setModalShow] = useState(false);
