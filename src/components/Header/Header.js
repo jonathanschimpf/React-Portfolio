@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.css";
 import { Container } from "react-bootstrap";
-import { Link } from "react-scroll";
 
 function HeaderComp() {
   return (
