@@ -1,22 +1,19 @@
 import React, { useState } from "react";
 import "./Projects.css";
 import { Container, Card, Modal, Button, Row, Col } from "react-bootstrap";
-import ProjectsData from "./Projects.json";
+import ProjectsData from "./dynamicprojectcollection.json";
 import lemonLogo from "../../images/Little-Lemon-Logo-Black_Final.png";
 import tumblrToReactImage from "../../images/FromTumblrToReact-Project-Final.png";
 import naturalTravelInspirationProjectImage from "../../images/natural-travel-inspiration-projectImage.png";
 import learnNextjsCourseImage from "../../images/learn-nextjs.png";
 
-
 const imageMap = {
   "learn-nextjs.png": learnNextjsCourseImage,
-  "natural-travel-inspiration-projectImage.png": naturalTravelInspirationProjectImage,
+  "natural-travel-inspiration-projectImage.png":
+    naturalTravelInspirationProjectImage,
   "FromTumblrToReact-Project-Final.png": tumblrToReactImage,
-  "Little-Lemon-Logo-Black_Final.png": lemonLogo
+  "Little-Lemon-Logo-Black_Final.png": lemonLogo,
 };
-
-
-
 
 function ProjectsComponent() {
   const [modalShow, setModalShow] = useState(false);
