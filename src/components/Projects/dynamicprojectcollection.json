@@ -4,7 +4,7 @@
     "title": "Peterson Recipe Collection",
     "projectlink": "https://petersonrecipecollection.netlify.app/",
     "repolink": "https://github.com/jonathanschimpf/peterson-recipecollection",
-    "description": "A nostalgic archive of handwritten and printed recipes, continuously collected and preserved in a small wooden box by the Peterson family since the 1980s. Digitized by scanning & OCR-GPT-transcribed in 2024-2025. Built with SvelteKit to preserve the charm of the originals in a clean, modern interface. Carefully organized for fast browsing, smooth zooming, and paired scans and transcriptions — this project blends nostalgia with responsive, mobile-first design to honor decades of meals and memories.",
+    "description": "A nostalgic archive of handwritten and printed recipes, continuously collected in a small wooden box by the Peterson family since the 1980s. Digitized through high-resolution scanning and OCR-GPT transcription in 2024–2025. Built with SvelteKit to preserve the charm of the originals in a clean, modern interface. Carefully organized for fast browsing, smooth zooming, and paired scans with transcriptions — this project blends nostalgia with responsive, mobile-first design to honor decades of meals and memories.",
     "image": "petersonrecipecollection.png"
   },
   {
