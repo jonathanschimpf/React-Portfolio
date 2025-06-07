@@ -6,6 +6,7 @@ import lemonLogo from "../../images/Little-Lemon-Logo-Black_Final.png";
 import tumblrToReactImage from "../../images/FromTumblrToReact-Project-Final.png";
 import naturalTravelInspirationProjectImage from "../../images/natural-travel-inspiration-projectImage.png";
 import learnNextjsCourseImage from "../../images/learn-nextjs.png";
+import petersonRecipeImage from "../../images/petersonrecipecollection.png";
 
 const imageMap = {
   "learn-nextjs.png": learnNextjsCourseImage,
@@ -13,6 +14,7 @@ const imageMap = {
     naturalTravelInspirationProjectImage,
   "FromTumblrToReact-Project-Final.png": tumblrToReactImage,
   "Little-Lemon-Logo-Black_Final.png": lemonLogo,
+  "petersonrecipecollection.png": petersonRecipeImage,
 };
 
 function ProjectsComponent() {
